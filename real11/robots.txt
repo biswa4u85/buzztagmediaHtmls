@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Disallow: /downloads/Notout11-fantasy-sports-app.html
+Disallow: /downloads/Notout11-fantasy-cricket-app.html
+

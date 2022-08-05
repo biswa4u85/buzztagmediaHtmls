@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="bg-pattern"  viewBox="0 0 948 827" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!--  51.2 (57519) -  -->
+    <title>bg-pattern</title>
+    <desc>By RummyCulture.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="20.18409%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FAC700" offset="0%"></stop>
+            <stop stop-color="#D41439" offset="50.1336641%"></stop>
+            <stop stop-color="#03003C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g  fill="url(#linearGradient-1)">
+            <rect  transform="translate(594.501804, 353.461941) rotate(-45.000000) translate(-594.501804, -353.461941) " x="190.666734" y="257.438719" width="807.670141" height="192.046444" rx="96.0232221"></rect>
+            <rect transform="translate(354.451107, 473.490969) rotate(-45.000000) translate(-354.451107, -473.490969) " x="-49.3839634" y="377.467747" width="807.670141" height="192.046444" rx="96.0232221"></rect>
+        </g>
+    </g>
+</svg>
