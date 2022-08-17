@@ -1,501 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
-		<!-- Global site tag (gtag.js) - Google Ads: 589306882 --> 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			
-			gtag('config', 'UA-136973186-1');
-			gtag('config', 'AW-589306882');
-		</script>
-		<script>
-			window.addEventListener('load',function(){ 
-				jQuery('#andrd_link').click(function(){ 
-					gtag('event', 'download', {'event_category': 'app','event_label':'android'});
-				})
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
+	<!-- Global site tag (gtag.js) - Google Ads: 589306882 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-136973186-1');
+		gtag('config', 'AW-589306882');
+	</script>
+	<script>
+		window.addEventListener('load', function () {
+			jQuery('#andrd_link').click(function () {
+				gtag('event', 'download', { 'event_category': 'app', 'event_label': 'android' });
 			})
-		</script>
-		<!-- <script>
+		})
+	</script>
+	<!-- <script>
 			window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-589306882');
 		</script> -->
-		<!-- Facebook Pixel Code -->
-		<script>
-			!function(f,b,e,v,n,t,s)
-			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-			n.queue=[];t=b.createElement(e);t.async=!0;
-			t.src=v;s=b.getElementsByTagName(e)[0];
-			s.parentNode.insertBefore(t,s)}(window,document,'script',
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
 			'https://connect.facebook.net/en_US/fbevents.js');
-			fbq('init', '560345878459615'); 
-			fbq('track', 'PageView');
-		</script>
-		<noscript>
-			<img height="1" width="1" 
-				src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
-				&noscript=1"/>
-		</noscript>
-		<!-- End Facebook Pixel Code -->
-		<meta charset="UTF-8">
-		
-	<link rel="stylesheet" href="new_script/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css"/>
-	<link rel="stylesheet" href="new_script/css/custom.css"/>
-	<link rel="stylesheet" href="new_script/css/howtoplay.css"/>
-	<link rel="stylesheet" href="new_script/css/league.css"/>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Notout11.com Indian T20 league</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<style>
-	
-		</style>
-	</head>
-	<body>
-		<div class="header-bar">
-			<div class="mobile_view"></div>
-				<div class="container-fluid">
-					<nav class="navbar navbar-expand-lg navbar-light">
-						<div class="header-up">
-							<a class="navbar-brand" href="index.html"><img src="new_script/img/logo.png" alt=""></a>
-						</div>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-							aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-							<ul class="navbar-nav ">
-								<li class="nav-item">
-									<a href="league#" class="nav-link pr-4">Want to play fantasy cricket?</a>
-								</li>
-								<li class="nav-item top_button">
-									<a href="download.html" class="nav-link button-link ml-4 px-3">Download Now</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-		</div>
-		<div class="league_banner">
-			<img src="new_script/img/cover11.jpg" class="img-fluid" alt="">
-		</div>
-		<!--league_content start-->
-		<div id="league_content">
-			<div class="container-fluid">
-				<h2>Indian <span> T20 </span> League</h2>
-				<p>The 15th edition of the Indian T20 League is all set to kick-off in the last of March. The season will be very different from any other season as the season veterans like Suresh Raina, Chris Gayle and AB De Villiers will not be seen in action. Virat Kohli has also relinquished his position as a captain and we might see the last of MS Dhoni this year. The competition will get more intense and a lot tougher as two new teams will join the force to make the Indian T20 League bigger than before. No matter what happens, one thing is for certain that Indian Cricket will keep marching forward.</p>
+		fbq('init', '560345878459615');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
+				&noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+	<meta charset="UTF-8">
 
-				<h4><strong>Mega Auction</strong></h4>
-				<p>The much awaited mega auction of the Indian T20 League took place on 12th and 13th of February, 2022. More than 550 players went under the hammer and a total of 551 crores and 70 lakhs was spent on 204 players in the auction. Almost all the franchises retained some of their players and the new teams were given the opportunity to sign three players before the deadline. As all the teams are well settled now, it can be said with absolute certainty that the cricket fans in India can’t wait for the festival to begin.</p>
+	<link rel="stylesheet" href="new_script/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="new_script/css/custom.css" />
+	<link rel="stylesheet" href="new_script/css/howtoplay.css" />
+	<link rel="stylesheet" href="new_script/css/league.css" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Notout11.com Indian T20 league</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<style>
 
-				<h4><strong>Addition of 2 new teams</strong></h4>
-				<p>The Indian Cricket board has decided to add two new teams for the fifteenth edition of the Indian T20 League. A lot of industrialists from India and a couple of them from Europe and America participated in owning a franchise in the cash-rich league. In the month of December in 2021, it was confirmed that Lucknow and Ahmedabad are going to be the two new teams who are going to represent in the Indian T20 League from now on. <br><br>
-				</p>
-				<div class="download_link">
-					<a href="download.html">Download Now</a>
+	</style>
+</head>
+
+<body>
+	<div class="header-bar">
+		<div class="mobile_view"></div>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="header-up">
+					<a class="navbar-brand" href="index.html"><img src="new_script/img/logo.png" alt=""></a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav ">
+						<li class="nav-item">
+							<a href="league#" class="nav-link pr-4">Want to play fantasy cricket?</a>
+						</li>
+						<li class="nav-item top_button">
+							<a href="download.html" class="nav-link button-link ml-4 px-3">Download Now</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	</div>
+	<div class="league_banner">
+		<img src="new_script/img/cover11.jpg" class="img-fluid" alt="">
+	</div>
+	<!--league_content start-->
+	<div id="league_content">
+		<div class="container-fluid">
+			<h2>Indian <span> T20 </span> League</h2>
+			<p>The 15th edition of the Indian T20 League is all set to kick-off in the last of March. The season will be
+				very different from any other season as the season veterans like Suresh Raina, Chris Gayle and AB De
+				Villiers will not be seen in action. Virat Kohli has also relinquished his position as a captain and we
+				might see the last of MS Dhoni this year. The competition will get more intense and a lot tougher as two
+				new teams will join the force to make the Indian T20 League bigger than before. No matter what happens,
+				one thing is for certain that Indian Cricket will keep marching forward.</p>
+
+			<h4><strong>Mega Auction</strong></h4>
+			<p>The much awaited mega auction of the Indian T20 League took place on 12th and 13th of February, 2022.
+				More than 550 players went under the hammer and a total of 551 crores and 70 lakhs was spent on 204
+				players in the auction. Almost all the franchises retained some of their players and the new teams were
+				given the opportunity to sign three players before the deadline. As all the teams are well settled now,
+				it can be said with absolute certainty that the cricket fans in India can’t wait for the festival to
+				begin.</p>
+
+			<h4><strong>Addition of 2 new teams</strong></h4>
+			<p>The Indian Cricket board has decided to add two new teams for the fifteenth edition of the Indian T20
+				League. A lot of industrialists from India and a couple of them from Europe and America participated in
+				owning a franchise in the cash-rich league. In the month of December in 2021, it was confirmed that
+				Lucknow and Ahmedabad are going to be the two new teams who are going to represent in the Indian T20
+				League from now on. <br><br>
+			</p>
+			<div class="download_link">
+				<a href="download.html">Download Now</a>
+			</div>
+		</div>
+	</div>
+	<!--league_content end-->
+	<!--start four-column-->
+	<div id="four-column">
+		<div class="container-fluid">
+			<div class="mother-box4 boxes">
+				<div class="child-box-1 boxes">
+					<img src="new_script/img/download.svg" class="img-fluid" alt="" data-aos="zoom-in">
+					<h4 data-aos="fade-down-right">25 lakh<span id="add-sign">+</span></h4>
+					<p data-aos="fade-down">Downloads</p>
+				</div>
+				<div class="child-box-2 boxes">
+					<img src="new_script/img/trophy.svg" class="img-fluid" alt="" data-aos="zoom-in">
+					<h4 data-aos="fade-down-right">100<span id="add-sign">+</span></h4>
+					<p data-aos="fade-down">Daily contests</p>
+				</div>
+				<div class="child-box-3 boxes">
+					<img src="new_script/img/pricemoney.svg" class="img-fluid" alt="" data-aos="zoom-in">
+					<h4 data-aos="fade-down-right">&#8377; 50 LAKH<span id="add-sign">+</span></h4>
+					<p data-aos="fade-down">Daily Winnings</p>
+				</div>
+				<div class="child-box-4 boxes">
+					<img src="new_script/img/entryfee.svg" class="img-fluid" alt="" data-aos="zoom-in">
+					<h4 data-aos="fade-down-right" class="text-center">LOWEST ENTRY FEE</h4>
+					<p data-aos="fade-down">Among All Fantasy Platforms</p>
 				</div>
 			</div>
 		</div>
-		<!--league_content end-->
-		<!--start four-column-->
-		<div id="four-column">
-			<div class="container-fluid">
-				<div class="mother-box4 boxes">
-					<div class="child-box-1 boxes">
-						<img src="new_script/img/download.svg" class="img-fluid" alt="" data-aos="zoom-in">
-						<h4 data-aos="fade-down-right" >25 lakh<span id="add-sign">+</span></h4>
-						<p data-aos="fade-down">Downloads</p>
+	</div>
+	<!--end four-column-->
+	<!--INDIAN T20 LEAGUE TEAMS start-->
+	<div id="league_team">
+		<div class="container-fluid">
+			<div class="content_team text-center">
+				<h2 data-aos="zoom-in-up">Indian <span> T20 </span> League</h2>
+				<p>This year will feature two new teams and thus a total of 10 teams. Lucknow and Gujarat are the two
+					news added to the T20 competition. The 15th edition of the grand event is likely to start on 26th of
+					March, 2022 but the.</br> It is expected that all the matches of the tournament will be played in
+					India.</p>
+			</div>
+		</div>
+	</div>
+	<!--INDIAN T20 LEAGUE TEAMS end-->
+	<div class="player_bg">
+		<div class="container_my">
+			<div class="row">
+				<div class="col-sm-12 coll2 collg2">
+					<div class="team1 team">
+						<div class="blank1"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="player_row1 icon_ipl_bxl">
+									<img src="new_script/img/CHE.png" alt="">
+								</div>
+								<div class="info">
+									<h3>R </br>Jadeja</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr1">
+									<h2>Chennai</h2>
+									<p><span>COACH:</span> STEPHEN FLEMING</p>
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 4 (2010, 2011, 2018, 2021)</p>
+							</div>
+						</div>
+						<div class="overlay overlay1">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/che.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Deepak Chahar, Ambati Rayudu, Dwayne Bravo</P>
+							</div>
+						</div>
 					</div>
-					<div class="child-box-2 boxes">
-						<img src="new_script/img/trophy.svg" class="img-fluid" alt="" data-aos="zoom-in">
-						<h4 data-aos="fade-down-right">100<span id="add-sign">+</span></h4>
-						<p data-aos="fade-down">Daily contests</p>
+				</div>
+				<div class="col-sm-12 coll2 collg2">
+					<div class="team2 team">
+						<div class="blank2"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="player_row1">
+									<img src="new_script/img/team2-sh.svg" alt="">
+								</div>
+								<div class="info">
+									<h3>Kane Williamson</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr">
+									<h3>Hyderabad</h3>
+									<p><span>COACH:</span> TOM MOODY</p>
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 1 (2016)</p>
+							</div>
+						</div>
+						<div class="overlay overlay2">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/hyd.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Rahul Tripathi, Nicolas Pooran, Washington Sundar</P>
+							</div>
+						</div>
 					</div>
-					<div class="child-box-3 boxes">
-						<img src="new_script/img/pricemoney.svg" class="img-fluid" alt="" data-aos="zoom-in">
-						<h4 data-aos="fade-down-right">&#8377; 50 LAKH<span id="add-sign">+</span></h4>
-						<p data-aos="fade-down">Daily Winnings</p>
+				</div>
+				<div class="col-sm-12 coll2 collg2">
+					<div class="team3 team">
+						<div class="blank3"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="player_row1">
+									<img src="new_script/img/team3-dc.svg" alt="">
+								</div>
+								<div class="info">
+									<h3>Rishabh </br>Pant</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr3">
+									<h2>Delhi</h2>
+									<p><span>COACH:</span> RICKY PONTING</p>
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 0</p>
+							</div>
+						</div>
+						<div class="overlay overlay3">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/del.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>David Warner, Shardul Thakur, Mitch Marsh</P>
+							</div>
+						</div>
 					</div>
-					<div class="child-box-4 boxes">
-						<img src="new_script/img/entryfee.svg" class="img-fluid" alt="" data-aos="zoom-in">
-						<h4 data-aos="fade-down-right" class="text-center">LOWEST ENTRY FEE</h4>
-						<p data-aos="fade-down">Among All Fantasy Platforms</p>
+				</div>
+				<div class="col-sm-12 coll2 collg2">
+					<div class="team4 team">
+						<div class="blank4"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="player_row1">
+									<img src="new_script/img/team4-kxip.svg" alt="">
+								</div>
+								<div class="info">
+									<h3>Mayank </br>Agarwal</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr4">
+									<h2>Punjab</h2>
+									<p><span>COACH:</span> ANIL KUMBLE
+									</p>
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 0 </p>
+							</div>
+						</div>
+						<div class="overlay overlay4">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/pun.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Shikhar Dhawan, Kagiso Rabada, Jonny Bairstow</P>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 coll2 collg2">
+					<div class="team8 team">
+						<div class="blank8"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="info1">
+									<h3>Shreyas Iyer</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr4">
+									<h2>Kolkata</h2>
+									<p><span>COACH:</span> Brandon McCullam</p>
+								</div>
+								<div class="player_row2">
+									<img src="new_script/img/team8-kkr.svg" alt="">
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 2 (2012, 2014) </p>
+							</div>
+						</div>
+						<div class="overlay overlay8">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/kol.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Shreyas Iyer, Pat Cummins, Nitish Rana</P>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="coll2 collg2 col-sm-12">
+					<div class="team5 team">
+						<div class="blank5"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="info1">
+									<h3>Rohit </br>Sharma</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr1">
+									<h2>Mumbai</h2>
+									<p><span>COACH:</span> Mahela Jayawardena</p>
+								</div>
+								<div class="player_row2">
+									<img src="new_script/img/team5-mi.svg" alt="">
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 5 (2013,15,17,19 & 2020)</p>
+							</div>
+						</div>
+						<div class="overlay overlay5">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/mum.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Ishan Kishan, Jofra Archer, Tim David </P>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="coll2 collg2 col-sm-12">
+					<div class="team6 team">
+						<div class="blank6"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="info1">
+									<h3>Sanju </br>SAMSON</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr2">
+									<h2>Rajasthan</h2>
+									<p><span>COACH:</span> Kumar Sangakkara</p>
+								</div>
+								<div class="player_row2">
+									<img src="new_script/img/team6-rr.svg" alt="">
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 1 (2008)</p>
+							</div>
+						</div>
+						<div class="overlay overlay6">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/raj.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Trent.Boult, Ravichandran Ashwin, Yuzvendra Chahal</P>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="coll2 collg2 col-sm-12">
+					<div class="team7 team">
+						<div class="blank7"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="info1">
+									<h3>Faf du Plessis</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr3">
+									<h3>Bangalore</h3>
+									<p><span>COACH:</span> Sanjay Bangar</p>
+								</div>
+								<div class="player_row2">
+									<img src="new_script/img/team7-rcb.svg" alt="">
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 0</p>
+							</div>
+						</div>
+						<div class="overlay overlay7">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/ben.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Faf Du Plessis, Harshal Patel, Wanindu Hasaranga</P>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="coll2 collg2 col-sm-12">
+					<div class="team team9">
+						<div class="blank9"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="info1">
+									<h3>KL </br>Rahul</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr4">
+									<h2>Lucknow</h2>
+									<p><span>COACH:</span> Andy Flower</p>
+								</div>
+								<div class="player_row2 icon_ipl_bxl">
+									<img src="new_script/img/luck.png" alt="">
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 0</p>
+							</div>
+						</div>
+						<div class="overlay overlay9">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/luc.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Avesh Khan, Jason Holder, Quinton De Kock</P>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="coll2 collg2 col-sm-12">
+					<div class="team10 team">
+						<div class="blank10"></div>
+						<div class="all_content">
+							<div class="image d-flex">
+								<div class="info1">
+									<h3>Hardik Pandya</h3>
+									<div class="cap_box">
+										<h6>CAPTAIN</h6>
+									</div>
+									<div class="clear_both"></div>
+									<hr class="hr4">
+									<h2>Gujarat</h2>
+									<p><span>COACH:</span> Ashish Nehra</p>
+								</div>
+								<div class="player_row2 icon_ipl_bxl">
+									<img src="new_script/img/guj.png" alt="">
+								</div>
+							</div>
+							<hr class="bottom_hr hr1">
+							<div class="title_won">
+								<p><span>TITLES WON:</span> 0</p>
+							</div>
+						</div>
+						<div class="overlay overlay10">
+							<div class="text-center">
+								<img src="new_script/img/logoipl/guj.png" class="img-fluid" alt="">
+								<hr>
+								<h5>Major Signings in 2022:</h5>
+								<P>Lockie Ferguson, Jason Roy, Mohammed Shami</P>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--end four-column-->
-		<!--INDIAN T20 LEAGUE TEAMS start-->
-		<div id="league_team">
-			<div class="container-fluid">
-				<div class="content_team text-center">
-					<h2  data-aos="zoom-in-up">Indian <span> T20 </span> League</h2>
-					<p>This year will feature two new teams and thus a total of 10 teams. Lucknow and Gujarat are the two news added to the T20 competition. The 15th edition of the grand event is likely to start on 26th of March, 2022 but the.</br> It is expected that all the matches of the tournament will be played in India.</p>
-				</div>
-			</div>
-		</div>
-		<!--INDIAN T20 LEAGUE TEAMS end-->
-		<div class="player_bg">
-			<div class="container_my">
-				<div class="row">
-					<div class="col-sm-12 coll2 collg2">
-						<div class="team1 team">
-							<div class="blank1"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="player_row1 icon_ipl_bxl">
-										<img src="new_script/img/CHE.png" alt="">
-									</div>
-									<div class="info">
-										<h3>R </br>Jadeja</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr1">
-										<h2>Chennai</h2>
-										<p><span>COACH:</span> STEPHEN FLEMING</p>
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 4 (2010, 2011, 2018, 2021)</p>
-								</div>
-							</div>
-							<div class="overlay overlay1">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/che.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Deepak Chahar, Ambati Rayudu, Dwayne Bravo</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 coll2 collg2">
-						<div class="team2 team">
-							<div class="blank2"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="player_row1">
-										<img src="new_script/img/team2-sh.svg"  alt="">
-									</div>
-									<div class="info">
-										<h3>Kane Williamson</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr">
-										<h3>Hyderabad</h3>
-										<p><span>COACH:</span> TOM MOODY</p>
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 1 (2016)</p>
-								</div>
-							</div>
-							<div class="overlay overlay2">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/hyd.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Rahul Tripathi, Nicolas Pooran, Washington Sundar</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 coll2 collg2">
-						<div class="team3 team">
-							<div class="blank3"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="player_row1">
-										<img src="new_script/img/team3-dc.svg" alt="">
-									</div>
-									<div class="info">
-										<h3>Rishabh </br>Pant</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr3">
-										<h2>Delhi</h2>
-										<p><span>COACH:</span> RICKY PONTING</p>
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 0</p>
-								</div>
-							</div>
-							<div class="overlay overlay3">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/del.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>David Warner, Shardul Thakur, Mitch Marsh</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 coll2 collg2">
-						<div class="team4 team">
-							<div class="blank4"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="player_row1">
-										<img src="new_script/img/team4-kxip.svg" alt="">
-									</div>
-									<div class="info">
-										<h3>Mayank </br>Agarwal</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr4">
-										<h2>Punjab</h2>
-										<p><span>COACH:</span> ANIL KUMBLE
-										</p>
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 0 </p>
-								</div>
-							</div>
-							<div class="overlay overlay4">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/pun.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Shikhar Dhawan, Kagiso Rabada, Jonny Bairstow</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 coll2 collg2">
-						<div class="team8 team">
-							<div class="blank8"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="info1">
-										<h3>Shreyas Iyer</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr4">
-										<h2>Kolkata</h2>
-										<p><span>COACH:</span> Brandon McCullam</p>
-									</div>
-									<div class="player_row2">
-										<img src="new_script/img/team8-kkr.svg" alt="">
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 2 (2012, 2014) </p>
-								</div>
-							</div>
-							<div class="overlay overlay8">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/kol.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Shreyas Iyer, Pat Cummins, Nitish Rana</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="coll2 collg2 col-sm-12">
-						<div class="team5 team">
-							<div class="blank5"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="info1">
-										<h3>Rohit </br>Sharma</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr1">
-										<h2>Mumbai</h2>
-										<p><span>COACH:</span> Mahela Jayawardena</p>
-									</div>
-									<div class="player_row2">
-										<img src="new_script/img/team5-mi.svg" alt="">
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 5 (2013,15,17,19 & 2020)</p>
-								</div>
-							</div>
-							<div class="overlay overlay5">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/mum.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Ishan Kishan, Jofra Archer, Tim David </P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="coll2 collg2 col-sm-12">
-						<div class="team6 team">
-							<div class="blank6"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="info1">
-										<h3>Sanju </br>SAMSON</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-											
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr2">
-										<h2>Rajasthan</h2>
-										<p><span>COACH:</span> Kumar Sangakkara</p>
-									</div>
-									<div class="player_row2">
-										<img src="new_script/img/team6-rr.svg"  alt="">
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 1 (2008)</p>
-								</div>
-							</div>
-							<div class="overlay overlay6">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/raj.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Trent.Boult, Ravichandran Ashwin, Yuzvendra Chahal</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="coll2 collg2 col-sm-12">
-						<div class="team7 team">
-							<div class="blank7"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="info1">
-										<h3>Faf du Plessis</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr3">
-										<h3>Bangalore</h3>
-										<p><span>COACH:</span> Sanjay Bangar</p>
-									</div>
-									<div class="player_row2">
-										<img src="new_script/img/team7-rcb.svg" alt="">
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 0</p>
-								</div>
-							</div>
-							<div class="overlay overlay7">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/ben.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Faf Du Plessis, Harshal Patel, Wanindu Hasaranga</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="coll2 collg2 col-sm-12">
-						<div class="team team9">
-							<div class="blank9"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="info1">
-										<h3>KL </br>Rahul</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr4">
-										<h2>Lucknow</h2>
-										<p><span>COACH:</span> Andy Flower</p>
-									</div>
-									<div class="player_row2 icon_ipl_bxl">
-										<img src="new_script/img/luck.png" alt="">
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 0</p>
-								</div>
-							</div>
-							<div class="overlay overlay9">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/luc.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Avesh Khan, Jason Holder, Quinton De Kock</P>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="coll2 collg2 col-sm-12">
-						<div class="team10 team">
-							<div class="blank10"></div>
-							<div class="all_content">
-								<div class="image d-flex">
-									<div class="info1">
-										<h3>Hardik Pandya</h3>
-										<div class="cap_box">
-											<h6>CAPTAIN</h6>
-										</div>
-										<div class="clear_both"></div>
-										<hr class="hr4">
-										<h2>Gujarat</h2>
-										<p><span>COACH:</span> Ashish Nehra</p>
-									</div>
-									<div class="player_row2 icon_ipl_bxl">
-										<img src="new_script/img/guj.png" alt="">
-									</div>
-								</div>
-								<hr class="bottom_hr hr1">
-								<div class="title_won">
-									<p><span>TITLES WON:</span> 0</p>
-								</div>
-							</div>
-							<div class="overlay overlay10">
-								<div class="text-center">
-									<img src="new_script/img/logoipl/guj.png" class="img-fluid" alt="">
-									<hr>
-									<h5>Major Signings in 2022:</h5>
-									<P>Lockie Ferguson, Jason Roy, Mohammed Shami</P>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container_my">
-				<div class="row">
-					<!-- <div class="coll2 collg2 col-sm-12">
+		<div class="container_my">
+			<div class="row">
+				<!-- <div class="coll2 collg2 col-sm-12">
 						<div class="team5 team">
 							<div class="blank5"></div>
 							<div class="all_content">
@@ -663,352 +685,375 @@
 							</div>
 						</div>
 					</div> -->
-				</div>
 			</div>
 		</div>
-		<!--winner slider end -->
-		<!-- images slider start-->
-		<section class="image-slider">
-			<div class="container-fluid">
-				<h1  data-aos="zoom-in-up" >Notout11 GADGET LEAGUE WINNERS</h1>
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="testimonial-item">
-								<div class="testimonial-client">
-									<div class="client-img d-flex flex-column justify-content-center align-items-center">
-										<img src="new_script/images/Akshay_Winner.png" alt="">
-									</div>
-									<div class="div  text-center">
-										<p class="client-winning"><span>Prize:</span> <br>
-											₹54,62,492
-										</p>
-										<!-- <p class="client-winning"><span>Match: </span><br>
+	</div>
+	<!--winner slider end -->
+	<!-- images slider start-->
+	<section class="image-slider">
+		<div class="container-fluid">
+			<h1 data-aos="zoom-in-up">Notout11 GADGET LEAGUE WINNERS</h1>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="testimonial-item">
+							<div class="testimonial-client">
+								<div class="client-img d-flex flex-column justify-content-center align-items-center">
+									<img src="new_script/images/Akshay_Winner.png" alt="">
+								</div>
+								<div class="div  text-center">
+									<p class="client-winning"><span>Prize:</span> <br>
+										₹54,62,492
+									</p>
+									<!-- <p class="client-winning"><span>Match: </span><br>
 											BANGLORE vs PUNJAB (2020)
 										</p> -->
-									</div>
-								</div>
-								<div class="testimonial-text">
-									<p> Notout11 is very easy and convenient to use. I love playing on Notout11. I have won ₹54,62,492 so far and wish to win more.
-									</p>
 								</div>
 							</div>
+							<div class="testimonial-text">
+								<p> Notout11 is very easy and convenient to use. I love playing on Notout11. I have won
+									₹54,62,492 so far and wish to win more.
+								</p>
+							</div>
 						</div>
-						<div class="carousel-item">
-							<div class="testimonial-item">
-								<div class="testimonial-client">
-									<div class="client-img d-flex flex-column justify-content-center align-items-center">
-										<img src="new_script/img/winner2.png" alt="">
-									</div>
-									<div class="div  text-center">
-										<p class="client-winning"><span>Prize:</span> <br>
-											₹29,46,443
-										</p>
-										<!-- <p class="client-winning"><span>Match: </span><br>
+					</div>
+					<div class="carousel-item">
+						<div class="testimonial-item">
+							<div class="testimonial-client">
+								<div class="client-img d-flex flex-column justify-content-center align-items-center">
+									<img src="new_script/img/winner2.png" alt="">
+								</div>
+								<div class="div  text-center">
+									<p class="client-winning"><span>Prize:</span> <br>
+										₹29,46,443
+									</p>
+									<!-- <p class="client-winning"><span>Match: </span><br>
 											RAJASTHAN vs DELHI (2020)
 										</p> -->
-									</div>
-								</div>
-								<div class="testimonial-text">
-									<p>I feel like winning ₹29,46,443 is a dream. I request every cricket lover to join Notout11 and play it. It is hands down the best.
-									</p>
 								</div>
 							</div>
+							<div class="testimonial-text">
+								<p>I feel like winning ₹29,46,443 is a dream. I request every cricket lover to join
+									Notout11 and play it. It is hands down the best.
+								</p>
+							</div>
 						</div>
-						<div class="carousel-item">
-							<div class="testimonial-item">
-								<div class="testimonial-client">
-									<div class="client-img d-flex flex-column justify-content-center align-items-center">
-										<img src="new_script/img/winner1.png" alt="">
-									</div>
-									<div class="div  text-center">
-										<p class="client-winning"><span>Prize:</span> <br>
-											₹20,13,661
-										</p>
-										<!-- <p class="client-winning"><span>Match: </span><br>
+					</div>
+					<div class="carousel-item">
+						<div class="testimonial-item">
+							<div class="testimonial-client">
+								<div class="client-img d-flex flex-column justify-content-center align-items-center">
+									<img src="new_script/img/winner1.png" alt="">
+								</div>
+								<div class="div  text-center">
+									<p class="client-winning"><span>Prize:</span> <br>
+										₹20,13,661
+									</p>
+									<!-- <p class="client-winning"><span>Match: </span><br>
 											ST vs HH - BBL <br>(2020)
 										</p> -->
-									</div>
 								</div>
-								<div class="testimonial-text">
-									<p>Recently I won ₹20,13,661 on Notout11. This has been a blessing for me in the middle of this Covid pandemic. Thank you Notout11.
-									</p>
-								</div>
+							</div>
+							<div class="testimonial-text">
+								<p>Recently I won ₹20,13,661 on Notout11. This has been a blessing for me in the middle
+									of this Covid pandemic. Thank you Notout11.
+								</p>
 							</div>
 						</div>
 					</div>
-					<a class="carousel-control-prev" href="league#carouselExampleIndicators" role="button" data-slide="prev">
+				</div>
+				<a class="carousel-control-prev" href="league#carouselExampleIndicators" role="button"
+					data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					</a>
-					<a class="carousel-control-next" href="league#carouselExampleIndicators" role="button" data-slide="next">
+				</a>
+				<a class="carousel-control-next" href="league#carouselExampleIndicators" role="button"
+					data-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					</a>
-				</div>
+				</a>
 			</div>
-		</section>
-		<div class="sticky_buttons">
-				<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
-				<div class="appLink-ic">
-					<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
-						<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
-					</a>
-				</div>
-				<div class="appLink-ic">
-					<a href="#" onclick="gtag_report_conversion('#')">
-						<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
-					</a>
-				</div>
 		</div>
-		<!--winner slider end-->
-		<script>
-			$(document).ready(function(){
-			    $("#testimonial-slider").owlCarousel({
-			        items:1,
-			        itemsDesktop:[1000,1],
-			        itemsDesktopSmall:[979,1],
-			        itemsTablet:[768,1],
-			        pagination:true,
-			        navigation:false,
-			        navigationText:["",""],
-			        slideSpeed:1000,
-			        singleItem:true,
-			        autoPlay:true
-			    });
-			});
-		</script>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		
-<section id="footer">
-	<div class="newsletter">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8 col-lg-9 text-left">
-					<a href="index.html">
-						<img src="new_script/img/logo.png" alt="">
-					</a>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
-					<div>
-						<h5 class="security_games">Security & Game Integrity</h5>
-						<div class="responsible_play">
-						<a href="play-responsible.html">
-								<button>Responsibly Play  <i class="far fa-hand-point-right"></i></button>
-								<img src="new_script/images/18adult123.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="input-group" hidden>
-						<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
-						<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
-						</div>
-					</div>
-				</div>
-			</div>
+	</section>
+	<div class="sticky_buttons">
+		<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
+				<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
+			</a>
+		</div>
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')">
+				<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
+			</a>
 		</div>
 	</div>
-	<div class="underline"></div>
-	<!--end newsletter div-->
+	<!--winner slider end-->
+	<script>
+		$(document).ready(function () {
+			$("#testimonial-slider").owlCarousel({
+				items: 1,
+				itemsDesktop: [1000, 1],
+				itemsDesktopSmall: [979, 1],
+				itemsTablet: [768, 1],
+				pagination: true,
+				navigation: false,
+				navigationText: ["", ""],
+				slideSpeed: 1000,
+				singleItem: true,
+				autoPlay: true
+			});
+		});
+	</script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-	<!--start footer div-->
-	<div class="footer">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div>
-						<h3>DISCLAIMER</h3>
-						<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any association or affiliation in any manner with any sports governing leagues or authorities, including (but not limited to) the Board of Control for Cricket in India (BCCI), unless specified otherwise.</p>
+	<section id="footer">
+		<div class="newsletter">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8 col-lg-9 text-left">
+						<a href="index.html">
+							<img src="new_script/img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
+						<div>
+							<h5 class="security_games">Security & Game Integrity</h5>
+							<div class="responsible_play">
+								<a href="play-responsible.html">
+									<button>Responsibly Play <i class="far fa-hand-point-right"></i></button>
+									<img src="new_script/images/18adult123.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="input-group" hidden>
+							<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
+							<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 footer-div footer-center">
-					<div class="">
-						<h3>FIND OUT MORE</h3>
-						<li>
-							<a href="how-to-play.html">How to Play</a>
-						</li>
-						<li>
-							<a href="fantasy-cricket.html">Fantasy Cricket</a>
-						</li>
-						<li>
-							<a href="fantasy-football.html">Fantasy Football</a>
-						</li>
-						<li>
-							<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
-						</li>
-						<li>
-							<a href="play-ludo-online.html">Ludo</a>
-						</li>
-						<!-- <li>
+			</div>
+		</div>
+		<div class="underline"></div>
+		<!--end newsletter div-->
+
+		<!--start footer div-->
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div>
+							<h3>DISCLAIMER</h3>
+							<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any
+								association or affiliation in any manner with any sports governing leagues or
+								authorities, including (but not limited to) the Board of Control for Cricket in India
+								(BCCI), unless specified otherwise.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 footer-div footer-center">
+						<div class="">
+							<h3>FIND OUT MORE</h3>
+							<li>
+								<a href="how-to-play.html">How to Play</a>
+							</li>
+							<li>
+								<a href="fantasy-cricket.html">Fantasy Cricket</a>
+							</li>
+							<li>
+								<a href="fantasy-football.html">Fantasy Football</a>
+							</li>
+							<li>
+								<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
+							</li>
+							<li>
+								<a href="play-ludo-online.html">Ludo</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-app">Fantasy Cricket app</a>
 						</li> -->
-						<li>
-							<a href="fantasy-points-system.html">Points System</a>
-						</li>
-						<!-- <li>
+							<li>
+								<a href="fantasy-points-system.html">Points System</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-league">Fantasy Cricket League</a>
 						</li> -->
-						<li>
-							<a href="faq.html">FAQs</a>
-						</li>
-						<li>
-							<a href="press-release.html">Press Release</a>
-						</li>
+							<li>
+								<a href="faq.html">FAQs</a>
+							</li>
+							<li>
+								<a href="press-release.html">Press Release</a>
+							</li>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div  footer-center">
-					<div class="">
-						<h3>ABOUT US</h3>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about-us.html">About us</a>
-						</li>
-						<li>
-							<a href="privacy-policy.html">Privacy Policy</a>
-						</li>
-						<li>
-							<a href="terms-conditions.html">Terms and Conditions</a>
-						</li>
-						<!-- <li>
+					<div class="col-md-6 col-lg-3 footer-div  footer-center">
+						<div class="">
+							<h3>ABOUT US</h3>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about-us.html">About us</a>
+							</li>
+							<li>
+    <a href="privacy-policy.html">Privacy Policy</a>
+</li>
+<li>
+    <a href="pricing-policy.html">Pricing Policy</a>
+</li>
+							<li>
+								<a href="refund-cancellation-policy.html">Refund & Cancellation Policy</a>
+							</li>
+							<li>
+								<a href="terms-conditions.html">Terms and Conditions</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/league">Indian T20 League</a>
 						</li> -->
-						<li>
-							<a href="offers.html">Offers</a>
-						</li>
-						<li>
-							<a href="blog-news.html">Blogs</a>
-						</li>
-						<li>
-							<a href="career-with-us.html">Career</a>
-						</li>
-						
+							<li>
+								<a href="offers.html">Offers</a>
+							</li>
+							<li>
+								<a href="blog-news.html">Blogs</a>
+							</li>
+							<li>
+								<a href="career-with-us.html">Career</a>
+							</li>
+
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div class="support d-flex flex-column">
-						<h3 id="support_id">SUPPORT</h3>
-						<p>Contact Us</p>
-						<p>CORPORATE OFFICE</p>
-						<p>GODLINE GAMING PVT LTD</p>
-						<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
-						<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p></p>
-						
-						<ul>
-							<li class="pl-1">
-								<a href="https://www.facebook.com/Notout11official" target="blank">
-									<img src="new_script/img/facebook.png" alt="facebook">
-								</a>
-							</li>
-							<li>
-								<a href="https://twitter.com/Notout11official" target="blank">
-									<img src="new_script/img/twitter.png" alt="twitter">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.youtube.com/Notout11Official" target="blank">
-									<img src="new_script/img/youtube.png" alt="youtube">
-								</a>
-							</li>
-							<li>
-								<a href="https://t.me/Notout11_OFFICIAL" target="blank">
-									<img src="new_script/img/telegram.png" alt="telegram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/company/Notout11official" target="blank">
-									<img src="new_script/img/linkedin.png" alt="linkedin">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/Notout11official" target="blank">
-									<img src="new_script/img/instagram.png" alt="instagram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
-									<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
-								</a>
-							</li>
-						</ul>
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div class="support d-flex flex-column">
+							<h3 id="support_id">SUPPORT</h3>
+							<p>Contact Us</p>
+							<p>Address:<span> plot no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024plot
+									no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024</span></p>
+							<p>GODLINE GAMING PVT LTD</p>
+							<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
+							<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p>
+							</p>
+
+							<ul>
+								<li class="pl-1">
+									<a href="https://www.facebook.com/Notout11official" target="blank">
+										<img src="new_script/img/facebook.png" alt="facebook">
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Notout11official" target="blank">
+										<img src="new_script/img/twitter.png" alt="twitter">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/Notout11Official" target="blank">
+										<img src="new_script/img/youtube.png" alt="youtube">
+									</a>
+								</li>
+								<li>
+									<a href="https://t.me/Notout11_OFFICIAL" target="blank">
+										<img src="new_script/img/telegram.png" alt="telegram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/Notout11official" target="blank">
+										<img src="new_script/img/linkedin.png" alt="linkedin">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/Notout11official" target="blank">
+										<img src="new_script/img/instagram.png" alt="instagram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
+										<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="underline"></div>
-	<!-- end footer div-->
+		<div class="underline"></div>
+		<!-- end footer div-->
 
 
-	<!--start copyright-->
-	<div class="copyright">
-		<div class="container-fluid">
-			<h3 class="py-3">Payment Partners</h3>
-			<div class="row">
-				<div class="col-md-8 payment-methods">
-					<ul class="d-flex pb-3">
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<!-- <li>
+		<!--start copyright-->
+		<div class="copyright">
+			<div class="container-fluid">
+				<h3 class="py-3">Payment Partners</h3>
+				<div class="row">
+					<div class="col-md-8 payment-methods">
+						<ul class="d-flex pb-3">
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<!-- <li>
 							<a href="javascript:void(0)">
 								<img src="https://Notout11.com/new_script/img/Frame 4.png" class="img-fluid" alt="">
 							</a>
 						</li> -->
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)">
-								<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-4 text-right">
-					<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-right">
+						<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<!--end copyright-->
-</section>
-<section>
-	<p class="text-center disc_adult">
-		This game involves an element of financial risk and may be addictive. Please play responsibly at your own risk.
-		<br />
-		This game is applicable for people 18+ only.
-	</p>
-</section>		<script>
-			AOS.init();
-		</script>
-		<script>
-			$(".ipltop_slider").owlCarousel({items:1,loop:!0,dots:!0,nav:!0,singleItem:!0,touchDrag:!1,autoplay:!0,autoplayTimeout:3500,autoplayHoverPause:!0,mouseDrag:!1}),$(".winners_slider").owlCarousel({autoplay:!0,autoplayTimeout:4e3,center:!0,loop:!0,dots:!0,nav:!0,items:3,stagePadding:30,responsive:{0:{items:1,stagePadding:40},480:{items:2,stagePadding:0},1600:{items:3,stagePadding:30}}})
-		</script>
-		
-		<!-- Twitter universal website tag code -->
-		<script>
-			!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-			},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-			a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-			// Insert Twitter Pixel ID and Standard Event data below
-			twq('init','o5jjs');
-			twq('track','PageView');
-		</script>
-		<!-- End Twitter universal website tag code -->
-	</body>
+
+		<!--end copyright-->
+	</section>
+	<section>
+		<p class="text-center disc_adult">
+			This game involves an element of financial risk and may be addictive. Please play responsibly at your own
+			risk.
+			<br />
+			This game is applicable for people 18+ only.
+		</p>
+	</section>
+	<script>
+		AOS.init();
+	</script>
+	<script>
+		$(".ipltop_slider").owlCarousel({ items: 1, loop: !0, dots: !0, nav: !0, singleItem: !0, touchDrag: !1, autoplay: !0, autoplayTimeout: 3500, autoplayHoverPause: !0, mouseDrag: !1 }), $(".winners_slider").owlCarousel({ autoplay: !0, autoplayTimeout: 4e3, center: !0, loop: !0, dots: !0, nav: !0, items: 3, stagePadding: 30, responsive: { 0: { items: 1, stagePadding: 40 }, 480: { items: 2, stagePadding: 0 }, 1600: { items: 3, stagePadding: 30 } } })
+	</script>
+
+	<!-- Twitter universal website tag code -->
+	<script>
+		!function (e, t, n, s, u, a) {
+			e.twq || (s = e.twq = function () {
+				s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+			}, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+				a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+		}(window, document, 'script');
+		// Insert Twitter Pixel ID and Standard Event data below
+		twq('init', 'o5jjs');
+		twq('track', 'PageView');
+	</script>
+	<!-- End Twitter universal website tag code -->
+</body>
+
 </html>

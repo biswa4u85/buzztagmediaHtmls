@@ -1,732 +1,840 @@
 <!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-				integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-			<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+<html lang="en">
+
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 				integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 				crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-			<!-- <title>How to Play</title> -->
-			
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- <title>How to Play</title> -->
 
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
-			<!-- Global site tag (gtag.js) - Google Ads: 589306882 --> 
-			<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
-				
-				gtag('config', 'UA-136973186-1');
-				gtag('config', 'AW-589306882');
-			</script>
-			<script>
-				window.addEventListener('load',function(){ 
-					jQuery('#andrd_link').click(function(){ 
-						gtag('event', 'download', {'event_category': 'app','event_label':'android'});
-					})
-				})
-			</script>
-			
-			<script>
-				!function(f,b,e,v,n,t,s)
-				{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-				n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-				if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-				n.queue=[];t=b.createElement(e);t.async=!0;
-				t.src=v;s=b.getElementsByTagName(e)[0];
-				s.parentNode.insertBefore(t,s)}(window,document,'script',
-				'https://connect.facebook.net/en_US/fbevents.js');
-				fbq('init', '560345878459615'); 
-				fbq('track', 'PageView');
-			</script>
-			<noscript>
-				<img height="1" width="1" 
-					src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
-					&noscript=1"/>
-			</noscript>
-			<!-- End Facebook Pixel Code -->
-			<meta charset="UTF-8">
-			
-	<link rel="stylesheet" href="new_script/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css"/>
-	<link rel="stylesheet" href="new_script/css/custom.css"/>
-	<link rel="stylesheet" href="new_script/css/howtoplay.css"/>
-	<link rel="stylesheet" href="new_script/css/faq.css"/>
-			<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<title>Notout11.com FAQs</title>
-			<link href="https://fonts.googleapis.com/css2?<!-- family -->=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-			<style>
-				.nav-pills .nav-link.active,
-				.nav-pills .show>.nav-link {
-					color: #fff;
-					background: linear-gradient(45deg, #0676DA, #3DA8F6) !important;
-					font-size: 14px;
-					padding: 5px 15px;
-					border-radius: 50px;
-				}
 
-				.nav-link {
-					display: block;
-					padding: 7px;
-					color: #0d6efd;
-					text-decoration: none;
-					transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-					font-size: 14px;
-				}
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
+	<!-- Global site tag (gtag.js) - Google Ads: 589306882 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-				.nav {
-					display: inherit;
-					flex-wrap: wrap;
-					padding-left: 0;
-					margin-bottom: 0;
-					list-style: none;
-				}
+		gtag('config', 'UA-136973186-1');
+		gtag('config', 'AW-589306882');
+	</script>
+	<script>
+		window.addEventListener('load', function () {
+			jQuery('#andrd_link').click(function () {
+				gtag('event', 'download', { 'event_category': 'app', 'event_label': 'android' });
+			})
+		})
+	</script>
 
-				li.nav-item {
-					display: inline-block;
-				}
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '560345878459615');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
+					&noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+	<meta charset="UTF-8">
 
-				.accordion-button {
-					background: #efeeee;
-				}
+	<link rel="stylesheet" href="new_script/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="new_script/css/custom.css" />
+	<link rel="stylesheet" href="new_script/css/howtoplay.css" />
+	<link rel="stylesheet" href="new_script/css/faq.css" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Notout11.com FAQs</title>
+	<link href="https://fonts.googleapis.com/css2?<!-- family -->=Open+Sans:wght@400;700;800&display=swap"
+		rel="stylesheet">
+	<style>
+		.nav-pills .nav-link.active,
+		.nav-pills .show>.nav-link {
+			color: #fff;
+			background: linear-gradient(45deg, #0676DA, #3DA8F6) !important;
+			font-size: 14px;
+			padding: 5px 15px;
+			border-radius: 50px;
+		}
 
-				.accordion-collapse {
-					border-left: 1px solid rgba(238, 238, 238, 0.933) !important;
-					border-right: 1px solid rgba(238, 238, 238, 0.933) !important;
-				}
+		.nav-link {
+			display: block;
+			padding: 7px;
+			color: #0d6efd;
+			text-decoration: none;
+			transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+			font-size: 14px;
+		}
 
-				.accordion-item {
-					margin-bottom: 10px !important;
-				}
+		.nav {
+			display: inherit;
+			flex-wrap: wrap;
+			padding-left: 0;
+			margin-bottom: 0;
+			list-style: none;
+		}
 
-				accordion-button:not(.collapsed)::after {
-					background-image: url(new_script/images/dropdown.png) !important;
-				}
+		li.nav-item {
+			display: inline-block;
+		}
 
-				.accordion-button::after {
-					background-image: url(new_script/images/dropdown.png) !important;
-				}
+		.accordion-button {
+			background: #efeeee;
+		}
 
-				.accordion-button:focus {
-					box-shadow: none !important;
-				}
+		.accordion-collapse {
+			border-left: 1px solid rgba(238, 238, 238, 0.933) !important;
+			border-right: 1px solid rgba(238, 238, 238, 0.933) !important;
+		}
 
-				.accordion-button:not(.collapsed) {
-					color: #000;
-				}
-				.text-right {
-					text-align: right !important;
-				}
-			</style>
-		</head>
-		<body>
-			<div class="header-bar">
-				<div class="mobile_view"></div>
-				<div class="container-fluid">
-					<nav class="navbar navbar-expand-lg navbar-light">
-						<div class="header-up">
-							<a class="navbar-brand" href="index.html"><img src="new_script/img/logo.png" alt=""></a>
-						</div>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-							aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-							<ul class="navbar-nav ">
-								<li class="nav-item">
-									<a href="faq#" class="nav-link pr-4">Want to play fantasy cricket?</a>
-								</li>
-								<li class="nav-item top_button">
-									<a href="download.html" class="nav-link button-link ml-4 px-3">Download Now</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
+		.accordion-item {
+			margin-bottom: 10px !important;
+		}
+
+		accordion-button:not(.collapsed)::after {
+			background-image: url(new_script/images/dropdown.png) !important;
+		}
+
+		.accordion-button::after {
+			background-image: url(new_script/images/dropdown.png) !important;
+		}
+
+		.accordion-button:focus {
+			box-shadow: none !important;
+		}
+
+		.accordion-button:not(.collapsed) {
+			color: #000;
+		}
+
+		.text-right {
+			text-align: right !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header-bar">
+		<div class="mobile_view"></div>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="header-up">
+					<a class="navbar-brand" href="index.html"><img src="new_script/img/logo.png" alt=""></a>
 				</div>
-			</div>
-			<div class="top_banner">
-				<div class="container-fluid">
-					<h1>frequently asked questions</h1>
-				</div>
-			</div>
-			<br />
-			<div class="container">
-				<div class="tab-pane" id="pills-Cricket" role="tabpanel" aria-labelledby="pills-Cricket-tab">
-					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="text-align: center;">
-						<li class="nav-item" role="presentation">
-							<button class="nav-link active" id="pills-Fantasy-tab" data-bs-toggle="pill" data-bs-target="#pills-Fantasy"
-								type="button" role="tab" aria-controls="pills-Fantasy" aria-selected="false">GENERAL</button>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav ">
+						<li class="nav-item">
+							<a href="faq#" class="nav-link pr-4">Want to play fantasy cricket?</a>
 						</li>
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-Second-tab" data-bs-toggle="pill" data-bs-target="#pills-Second"
-								type="button" role="tab" aria-controls="pills-Second" aria-selected="false">CRICKET</button>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-Live-tab" data-bs-toggle="pill" data-bs-target="#pills-Live" type="button"
-								role="tab" aria-controls="pills-Live" aria-selected="false">FOOTBALL</button>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-kabbadi-tab" data-bs-toggle="pill" data-bs-target="#pills-kabbadi" type="button"
-								role="tab" aria-controls="pills-kabbadi" aria-selected="false">KABADDI</button>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-ludo-tab" data-bs-toggle="pill" data-bs-target="#pills-ludo" type="button"
-								role="tab" aria-controls="pills-ludo" aria-selected="false">GAMES</button>
+						<li class="nav-item top_button">
+							<a href="download.html" class="nav-link button-link ml-4 px-3">Download Now</a>
 						</li>
 					</ul>
-					<div class="tab-content" id="pills-tabContent">
-						<div class="tab-pane fade show active" id="pills-Fantasy" role="tabpanel" aria-labelledby="pills-Fantasy-tab">
-							<h5 >GENERAL</h5>
-							<div class="accordion accordion-flush" id="accordionFlushExample">
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingOne">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-											<h5>Q.1 What is Notout11?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">Notout11 is the world’s #1 online fantasy sports game which offers fantasy
-											cricket to an exponentially growing user base and allows the users to win real money with the help of
-											their sports knowledge. 
-										</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div class="top_banner">
+		<div class="container-fluid">
+			<h1>frequently asked questions</h1>
+		</div>
+	</div>
+	<br />
+	<div class="container">
+		<div class="tab-pane" id="pills-Cricket" role="tabpanel" aria-labelledby="pills-Cricket-tab">
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="text-align: center;">
+				<li class="nav-item" role="presentation">
+					<button class="nav-link active" id="pills-Fantasy-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-Fantasy" type="button" role="tab" aria-controls="pills-Fantasy"
+						aria-selected="false">GENERAL</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="pills-Second-tab" data-bs-toggle="pill" data-bs-target="#pills-Second"
+						type="button" role="tab" aria-controls="pills-Second" aria-selected="false">CRICKET</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="pills-Live-tab" data-bs-toggle="pill" data-bs-target="#pills-Live"
+						type="button" role="tab" aria-controls="pills-Live" aria-selected="false">FOOTBALL</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="pills-kabbadi-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-kabbadi" type="button" role="tab" aria-controls="pills-kabbadi"
+						aria-selected="false">KABADDI</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="pills-ludo-tab" data-bs-toggle="pill" data-bs-target="#pills-ludo"
+						type="button" role="tab" aria-controls="pills-ludo" aria-selected="false">GAMES</button>
+				</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-Fantasy" role="tabpanel"
+					aria-labelledby="pills-Fantasy-tab">
+					<h5>GENERAL</h5>
+					<div class="accordion accordion-flush" id="accordionFlushExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOne">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseOne" aria-expanded="false"
+									aria-controls="flush-collapseOne">
+									<h5>Q.1 What is Notout11?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseOne" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">Notout11 is the world’s #1 online fantasy sports game which
+									offers fantasy
+									cricket to an exponentially growing user base and allows the users to win real money
+									with the help of
+									their sports knowledge.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingTwo">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTwo" aria-expanded="false"
+									aria-controls="flush-collapseTwo">
+									<h5>Q.2 How do I sign up on Notout11? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseTwo" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>That’s easy! Open our app and click on Sign up now. In sign up page, you can
+										enter the Invite code
+										(if you’ve), enter your phone number, email ID, password and click on Register.
+									</p>
+									<p>Congratulations, you’ve become a part of Notout11 family. After you’re through
+										with the registration,
+										you can follow the ‘simple starter guide’, which will take you through the
+										simple steps of creating
+										your Fantasy Cricket Team for any league and then, join Contests to win Cash.
+										You can also go
+										through the ‘how to play’ page of Notout11.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingThree">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseThree" aria-expanded="false"
+									aria-controls="flush-collapseThree">
+									<h5>Q.3 Why can’t I log in to my Notout11 account?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseThree" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>Please check whether you've entered your registered email address or mobile
+										number correctly and
+										then, try logging in again. If you want to login with your registered email
+										address and have
+										forgotten your password, then click on 'Forgot Password', enter your registered
+										email ID and we’ll
+										send you a link to reset your password on it within a few minutes! If you’re
+										trying to login with
+										your registered phone number then you will get a 6-digit OTP, which you’ve to
+										fill in and proceed.
+									</p>
+									<p>If you've forgotten your registered email id or phone number, reach out to us at
+										'Contact us'. We
+										are always happy to assist our valuable users.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingFour">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseFour" aria-expanded="false"
+									aria-controls="flush-collapseFour">
+									<h5>Q.4 How do I change my password?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseFour" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>When you are logged in, head to ‘My Profile’, select ‘Change Password’, type your
+										old and new
+										password & click on ‘Save Changes’.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingFive">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseFive" aria-expanded="false"
+									aria-controls="flush-collapseFive">
+									<h5>Q.5 How many accounts can I create on Notout11 with the same Email ID?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseFive" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>You can create only one account with one Email ID on Notout11. The creation of
+										multiple accounts by a
+										single user is strictly prohibited and it also violates our Fair Play policy.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingSix">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseSix" aria-expanded="false"
+									aria-controls="flush-collapseSix">
+									<h5>Q.6 Can I update/edit my user information?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseSix" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>
+									<ul>
+										<li>On the Notout11 app, head to ‘My Profile’, scroll to the bottom of the page
+											and tap on the ‘Full
+											Profile’ button which is next to the Personal Details section.
+										</li>
+										<li>You can also edit your date of birth, address and state if your Notout11
+											account is ‘Unverified’.
+											Remember, the team name and the registered Email ID cannot be changed, once
+											chosen.
+										</li>
+									</ul>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingSeven">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseSeven" aria-expanded="false"
+									aria-controls="flush-collapseSeven">
+									<h5>Q.7 I’m sure I've got the right Email ID and password but I still can't login.
+									</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseSeven" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>That’s strange! If you are sure that you are a registered user on Notout11 and
+										entering the correct
+										details but still unable to login, please drop us an email at 'Contact us'. Our
+										Customer Care team
+										will be more than happy to assist you.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingEight">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseEight" aria-expanded="false"
+									aria-controls="flush-collapseEight">
+									<h5>Q.8 I did not get any confirmation email after I signed up. What do I do? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseEight" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>
+										(a) It could have been marked as 'Spam mail'. Please check your 'Spam mail'
+										folder and mark the email
+										from Notout11 as ‘Not Spam’. Also, add godlinegaming85@gmail.com to your
+										contacts so that you receive our
+										emails the next time.
+									</p>
+									(b) You may have entered a different Email ID than the one used by you during
+									registration. For any
+									assistance, please drop us an email at Contact us.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingNine">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseNine" aria-expanded="false"
+									aria-controls="flush-collapseNine">
+									<h5>Q.9 I don't know much about cricket. Can I still play? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseNine" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">
+									<p>Any person can play fantasy cricket. If you're not aware of rules of fantasy
+										cricket, then just
+										check these pages - how to play and fantasy points system. For taking part in
+										fantasy cricket
+										leagues, you just need to know about the rules, and then you can start your
+										fantasy cricket journey
+										with practice contests and later on, you can start with paid contests & win real
+										money.
+									</p>
+									<p>The platform of fantasy cricket accepts everyone and allows every individual to
+										earn real cash
+										through their skillset. So, even if you're not much aware of cricket, then also
+										we welcome you and
+										help you learn to climb the ladder of fantasy cricket on our platform.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-Second" role="tabpanel" aria-labelledby="pills-Second-tab">
+					<h5>Spot Fantasy</h5>
+					<div class="accordion accordion-flush" id="accordionFlushExampleSpot">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOneSpot">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseSpot" aria-expanded="false"
+									aria-controls="flush-collapseSpot">
+									<h5>Q.1 How are points distributed in spot fantasy?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseSpot" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingOneSpot" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">Points are allocated according to the predictions made for
+									every ball. A
+									correct guess would result in a point whereas an incorrect estimation would induce a
+									negative point.
+									For more info regarding the points, refer to the points system section.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingTwoSpot">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTwoSpot" aria-expanded="false"
+									aria-controls="flush-collapseTwoSpot">
+									<h5>Q.2 What if I make a wrong prediction for any ball?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseTwoSpot" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingTwoSpot" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>A wrong estimation would result in a negative point</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingThreeSpot">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseThreeSpot" aria-expanded="false"
+									aria-controls="flush-collapseThreeSpot">
+									<h5>Q.3 How are the winners determined for spot fantasy?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseThreeSpot" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingThreeSpot" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>The winners for the spot fantasy are determined according to the points obtained.
+										The more the
+										points, the more are the chances of your victory.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingFourSpot">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseFourSpot" aria-expanded="false"
+									aria-controls="flush-collapseFourSpot">
+									<h5>Q.4 What happens in the case of an extra ball (wide, no)</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseFourSpot" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingFourSpot" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>Spot Fantasy is only applicable for all legal deliveries during a match. No extra
+										ball in an over
+										would be taken into account while calculating your points.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingFiveSpot">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseFiveSpot" aria-expanded="false"
+									aria-controls="flush-collapseFiveSpot">
+									<h5>Q.5 Can I compete throughout the game via spot fantasy?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseFiveSpot" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingFiveSpot" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>Yes, and that's the beauty of it. Not only does it allow you to make predictions
+										for every ball,
+										but it also gives you the opportunity to join contests and win exciting cash
+										rewards.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h5>Live Fantasy</h5>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingSixSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseSixSpot" aria-expanded="false"
+										aria-controls="flush-collapseSixSpot">
+										<h5>Q.1 When can I start joining contests?</h5>
+									</button>
+								</h2>
+								<div id="flush-collapseSixSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingSixSpot" data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											You can join at any time during a match. Just select the block of 5 overs
+											you want to play in.
+										</p>
 									</div>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingTwo">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-											<h5>Q.2 How do I sign up on Notout11? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>That’s easy! Open our app and click on Sign up now. In sign up page, you can enter the Invite code
-												(if you’ve), enter your phone number, email ID, password and click on Register. 
-											</p>
-											<p>Congratulations, you’ve become a part of Notout11 family. After you’re through with the registration,
-												you can follow the ‘simple starter guide’, which will take you through the simple steps of creating
-												your Fantasy Cricket Team for any league and then, join Contests to win Cash. You can also go
-												through the ‘how to play’ page of Notout11.
-											</p>
-										</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingSevenSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseSevenSpot" aria-expanded="false"
+										aria-controls="flush-collapseSevenSpot">
+										<h5>Q.2 How will the prize distribution take place? </h5>
+									</button>
+								</h2>
+								<div id="flush-collapseSevenSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingSevenSpot"
+									data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											The winning amount is auto distributed after each 5 over spell (block).
+										</p>
 									</div>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingThree">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-											<h5>Q.3 Why can’t I log in to my Notout11 account?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>Please check whether you've entered your registered email address or mobile number correctly and
-												then, try logging in again. If you want to login with your registered email address and have
-												forgotten your password, then click on 'Forgot Password', enter your registered email ID and we’ll
-												send you a link to reset your password on it within a few minutes! If you’re trying to login with
-												your registered phone number then you will get a 6-digit OTP, which you’ve to fill in and proceed.
-											</p>
-											<p>If you've forgotten your registered email id or phone number, reach out to us at 'Contact us'. We
-												are always happy to assist our valuable users. 
-											</p>
-										</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingEightSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseEightSpot" aria-expanded="false"
+										aria-controls="flush-collapseEightSpot">
+										<h5>Q.3 What happens if a block is not completed? </h5>
+									</button>
+								</h2>
+								<div id="flush-collapseEightSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingEightSpot"
+									data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											If 40% balls are not bowled within a block, contests are abandoned.
+										</p>
 									</div>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingFour">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-											<h5>Q.4 How do I change my password?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>When you are logged in, head to ‘My Profile’, select ‘Change Password’, type your old and new
-												password & click on ‘Save Changes’. 
-											</p>
-										</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingNineSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseNineSpot" aria-expanded="false"
+										aria-controls="flush-collapseNineSpot">
+										<h5>Q.4 How are points awarded in Live Fantasy? </h5>
+									</button>
+								</h2>
+								<div id="flush-collapseNineSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingNineSpot" data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											Live Fantasy follows the same FPS as the full/second inning contests.
+										</p>
 									</div>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingFive">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-											<h5>Q.5 How many accounts can I create on Notout11 with the same Email ID?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>You can create only one account with one Email ID on Notout11. The creation of multiple accounts by a
-												single user is strictly prohibited and it also violates our Fair Play policy.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingSix">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-											<h5>Q.6 Can I update/edit my user information?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>
-											<ul>
-												<li>On the Notout11 app, head to ‘My Profile’, scroll to the bottom of the page and tap on the ‘Full
-													Profile’ button which is next to the Personal Details section. 
-												</li>
-												<li>You can also edit your date of birth, address and state if your Notout11 account is ‘Unverified’.
-													Remember, the team name and the registered Email ID cannot be changed, once chosen.
-												</li>
-											</ul>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingSeven">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-											<h5>Q.7 I’m sure I've got the right Email ID and password but I still can't login. </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>That’s strange! If you are sure that you are a registered user on Notout11 and entering the correct
-												details but still unable to login, please drop us an email at 'Contact us'. Our Customer Care team
-												will be more than happy to assist you.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingEight">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-											<h5>Q.8 I did not get any confirmation email after I signed up. What do I do? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>
-												(a) It could have been marked as 'Spam mail'. Please check your 'Spam mail' folder and mark the email
-												from Notout11 as ‘Not Spam’. Also, add godlinegaming85@gmail.com to your contacts so that you receive our
-												emails the next time. 
-											</p>
-											(b) You may have entered a different Email ID than the one used by you during registration. For any
-											assistance, please drop us an email at Contact us.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingNine">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-											<h5>Q.9 I don't know much about cricket. Can I still play? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
-										data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body">
-											<p>Any person can play fantasy cricket. If you're not aware of rules of fantasy cricket, then just
-												check these pages - how to play and fantasy points system. For taking part in fantasy cricket
-												leagues, you just need to know about the rules, and then you can start your fantasy cricket journey
-												with practice contests and later on, you can start with paid contests & win real money.
-											</p>
-											<p>The platform of fantasy cricket accepts everyone and allows every individual to earn real cash
-												through their skillset. So, even if you're not much aware of cricket, then also we welcome you and
-												help you learn to climb the ladder of fantasy cricket on our platform.
-											</p>
-										</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingTanSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseTanSpot" aria-expanded="false"
+										aria-controls="flush-collapseTanSpot">
+										<h5>Q.5 How do I rank players in my team? </h5>
+									</button>
+								</h2>
+								<div id="flush-collapseTanSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingTanSpot" data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											There are two ranks to be assigned, 1x and 2x.The 2x multiplier should be
+											allotted to the player you are most confident about, whereas 1x should be
+											assigned to the player you’re least confident about.
+										</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-Second" role="tabpanel" aria-labelledby="pills-Second-tab">
-							<h5>Spot Fantasy</h5>
-							<div class="accordion accordion-flush" id="accordionFlushExampleSpot">
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingOneSpot">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseSpot" aria-expanded="false" aria-controls="flush-collapseSpot">
-											<h5>Q.1 How are points distributed in spot fantasy?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingOneSpot"
-										data-bs-parent="#accordionFlushExampleSpot">
-										<div class="accordion-body">Points are allocated according to the predictions made for every ball. A
-											correct guess would result in a point whereas an incorrect estimation would induce a negative point.
-											For more info regarding the points, refer to the points system section.
-										</div>
+						<div>
+							<h5>Second Innings</h5>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingElevenSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseElevenSpot" aria-expanded="false"
+										aria-controls="flush-collapseElevenSpot">
+										<h5>Q.1 What is the Second Innings Contest?</h5>
+									</button>
+								</h2>
+								<div id="flush-collapseElevenSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingElevenSpot"
+									data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											The Second Innings Contest is just like your regular contest. You’ll have to
+											create a fantasy team of 11 players, assign a captain/vice captain, join
+											contests as per your convenience but for the Second innings of a cricket
+											match.
+										</p>
 									</div>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingTwoSpot">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseTwoSpot" aria-expanded="false" aria-controls="flush-collapseTwoSpot">
-											<h5>Q.2 What if I make a wrong prediction for any ball?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseTwoSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoSpot"
-										data-bs-parent="#accordionFlushExampleSpot">
-										<div class="accordion-body">
-											<p>A wrong estimation would result in a negative point</p>
-										</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingTwelveSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseTwelveSpot" aria-expanded="false"
+										aria-controls="flush-collapseTwelveSpot">
+										<h5>Q.2 Till when can I create my team for the Second Innings Contest? </h5>
+									</button>
+								</h2>
+								<div id="flush-collapseTwelveSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingTwelveSpot"
+									data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											You can create your team until 10 minutes after the end of the first
+											innings.
+										</p>
 									</div>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingThreeSpot">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseThreeSpot" aria-expanded="false" aria-controls="flush-collapseThreeSpot">
-											<h5>Q.3 How are the winners determined for spot fantasy?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseThreeSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeSpot"
-										data-bs-parent="#accordionFlushExampleSpot">
-										<div class="accordion-body">
-											<p>The winners for the spot fantasy are determined according to the points obtained. The more the
-												points, the more are the chances of your victory.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingFourSpot">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseFourSpot" aria-expanded="false" aria-controls="flush-collapseFourSpot">
-											<h5>Q.4 What happens in the case of an extra ball (wide, no)</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseFourSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingFourSpot"
-										data-bs-parent="#accordionFlushExampleSpot">
-										<div class="accordion-body">
-											<p>Spot Fantasy is only applicable for all legal deliveries during a match. No extra ball in an over
-												would be taken into account while calculating your points.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingFiveSpot">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseFiveSpot" aria-expanded="false" aria-controls="flush-collapseFiveSpot">
-											<h5>Q.5 Can I compete throughout the game via spot fantasy?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapseFiveSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingFiveSpot"
-										data-bs-parent="#accordionFlushExampleSpot">
-										<div class="accordion-body">
-											<p>Yes, and that's the beauty of it. Not only does it allow you to make predictions for every ball, 
-												but it also gives you the opportunity to join contests and win exciting cash rewards.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div>
-									<h5>Live Fantasy</h5>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingSixSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseSixSpot" aria-expanded="false" aria-controls="flush-collapseSixSpot">
-												<h5>Q.1 When can I start joining contests?</h5>
-											</button>
-										</h2>
-										<div id="flush-collapseSixSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingSixSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													You can join at any time during a match. Just select the block of 5 overs you want to play in.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingSevenSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseSevenSpot" aria-expanded="false" aria-controls="flush-collapseSevenSpot">
-												<h5>Q.2 How will the prize distribution take place? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseSevenSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingSevenSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													The winning amount is auto distributed after each 5 over spell (block).
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingEightSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseEightSpot" aria-expanded="false" aria-controls="flush-collapseEightSpot">
-												<h5>Q.3 What happens if a block is not completed? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseEightSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingEightSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													If 40% balls are not bowled within a block, contests are abandoned. 
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingNineSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseNineSpot" aria-expanded="false" aria-controls="flush-collapseNineSpot">
-												<h5>Q.4 How are points awarded in Live Fantasy? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseNineSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingNineSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													Live Fantasy follows the same FPS as the full/second inning contests.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingTanSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseTanSpot" aria-expanded="false" aria-controls="flush-collapseTanSpot">
-												<h5>Q.5 How do I rank players in my team? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseTanSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingTanSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													There are two ranks to be assigned, 1x and 2x.The 2x multiplier should be allotted to the player you are most confident about, whereas 1x should be assigned to the player you’re least confident about.
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div>
-									<h5>Second Innings</h5>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingElevenSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseElevenSpot" aria-expanded="false" aria-controls="flush-collapseElevenSpot">
-												<h5>Q.1 What is the Second Innings Contest?</h5>
-											</button>
-										</h2>
-										<div id="flush-collapseElevenSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingElevenSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													The Second Innings Contest is just like your regular contest. You’ll have to create a fantasy team of 11 players, assign a captain/vice captain, join contests as per your convenience but for the Second innings of a cricket match.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingTwelveSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseTwelveSpot" aria-expanded="false" aria-controls="flush-collapseTwelveSpot">
-												<h5>Q.2 Till when can I create my team for the Second Innings Contest? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseTwelveSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelveSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													You can create your team until 10 minutes after the end of the first innings.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingThirteenSpot">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseThirteenSpot" aria-expanded="false" aria-controls="flush-collapseThirteenSpot">
-												<h5>Q.3 Will the points for the first innings also be taken into account? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseThirteenSpot" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteenSpot"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													No points from the first innings will be taken into consideration while determining your rank within a second innings contest.
-												</p>
-											</div>
-										</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="flush-headingThirteenSpot">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseThirteenSpot" aria-expanded="false"
+										aria-controls="flush-collapseThirteenSpot">
+										<h5>Q.3 Will the points for the first innings also be taken into account? </h5>
+									</button>
+								</h2>
+								<div id="flush-collapseThirteenSpot" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingThirteenSpot"
+									data-bs-parent="#accordionFlushExampleSpot">
+									<div class="accordion-body">
+										<p>
+											No points from the first innings will be taken into consideration while
+											determining your rank within a second innings contest.
+										</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-Live" role="tabpanel" aria-labelledby="pills-Live-tab">
-							<h5 >FOOTBALL</h5>
-							<div class="accordion accordion-flush" id="accordionFlushExampleSoccer">
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingOneSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseOneSoccer" aria-expanded="false" aria-controls="flush-collapseOneSoccer">
-											<h5>Q.1 How can I take part in fantasy football? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseOneSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingOneSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-												On the homescreen of our app, you will find two tabs right at the top. Tap on the football section to switch to fantasy football. There you’ll find upcoming football Matches. Select the match of your choice and then partake in contests as per your convenience.
-											</p>
-										</div>
-									</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-Live" role="tabpanel" aria-labelledby="pills-Live-tab">
+					<h5>FOOTBALL</h5>
+					<div class="accordion accordion-flush" id="accordionFlushExampleSoccer">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOneSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseOneSoccer" aria-expanded="false"
+									aria-controls="flush-collapseOneSoccer">
+									<h5>Q.1 How can I take part in fantasy football? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseOneSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingOneSoccer" data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										On the homescreen of our app, you will find two tabs right at the top. Tap on
+										the football section to switch to fantasy football. There you’ll find upcoming
+										football Matches. Select the match of your choice and then partake in contests
+										as per your convenience.
+									</p>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingTwoSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseTwoSoccer" aria-expanded="false" aria-controls="flush-collapseTwoSoccer">
-											<h5>Q.2 Which football leagues are available on the platform? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseTwoSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-												All major global leagues (spanish, english, german, french) are available on the platform.
-											</p>
-										</div>
-									</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingTwoSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTwoSoccer" aria-expanded="false"
+									aria-controls="flush-collapseTwoSoccer">
+									<h5>Q.2 Which football leagues are available on the platform? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseTwoSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingTwoSoccer" data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										All major global leagues (spanish, english, german, french) are available on the
+										platform.
+									</p>
 								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingThreeSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseThreeSoccer" aria-expanded="false" aria-controls="flush-collapseThreeSoccer">
-											<h5>Q.3 What happens when a match is called off? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseThreeSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-												When a match or contest is called off or abandoned for any reason, the entry fee of/for that particular contest is refunded as per our fairplay policy.
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingThreeSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseThreeSoccer" aria-expanded="false"
+									aria-controls="flush-collapseThreeSoccer">
+									<h5>Q.3 What happens when a match is called off? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseThreeSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingThreeSoccer"
+								data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										When a match or contest is called off or abandoned for any reason, the entry fee
+										of/for that particular contest is refunded as per our fairplay policy.
 
-											</p>
-										</div>
-									</div>
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="pills-kabbadi" role="tabpanel" aria-labelledby="pills-kabbadi-tab">
-							<h5 >KABBADI</h5>
-							<div class="accordion accordion-flush" id="accordionFlushExampleSoccer">
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingOneSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseOneSoccer" aria-expanded="false" aria-controls="flush-collapseOneSoccer">
-											<h5>Q.1 What is fantasy Kabaddi? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseOneSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingOneSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-											Fantasy Kabaddi is an online skill based variant of team contact sport, Kabaddi. 
-											Just like fantasy cricket and football this game also demands you to create a   
-											Fantasy team comprising 7 players & subsequently assigning captain and  
-											vice captain. While the captain fetches you 2x points, the vice captain gives 1.5 
-											x points.
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-kabbadi" role="tabpanel" aria-labelledby="pills-kabbadi-tab">
+					<h5>KABBADI</h5>
+					<div class="accordion accordion-flush" id="accordionFlushExampleSoccer">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOneSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseOneSoccer" aria-expanded="false"
+									aria-controls="flush-collapseOneSoccer">
+									<h5>Q.1 What is fantasy Kabaddi? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseOneSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingOneSoccer" data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										Fantasy Kabaddi is an online skill based variant of team contact sport, Kabaddi.
+										Just like fantasy cricket and football this game also demands you to create a
+										Fantasy team comprising 7 players & subsequently assigning captain and
+										vice captain. While the captain fetches you 2x points, the vice captain gives
+										1.5
+										x points.
 
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingTwoSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseTwoSoccer" aria-expanded="false" aria-controls="flush-collapseTwoSoccer">
-											<h5>Q.2 How is Notout11 fantasy Kabaddi different from any other fantasy kabaddi? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseTwoSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-												Notout11 serves you with the finest experience in the field of online kabaddi. Known for its contributions in the realm of fantasy cricket, football and ludo, Notout11 is now bringing India’s very own Kabaddi for your enjoyment. From various kabaddi leagues to daily rewards, the fastest growing fantasy platform has it all to make you go wow!
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingThreeSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseThreeSoccer" aria-expanded="false" aria-controls="flush-collapseThreeSoccer">
-											<h5>Q.3 How to win fantasy Kabaddi? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseThreeSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-												Winning a fantasy kabaddi game requires skill, patience, and perseverance. India’s Trusted Fantasy Sports app, Notout11 offers a transparent process of offering virtual games and then deciding the winners solely based on their performances. A player gains some points based on his selection of players and their respective performance in the real matches.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingFourSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapseFourSoccer" aria-expanded="false" aria-controls="flush-collapseFourSoccer">
-											<h5>Q.4 What is the duration of a Kabaddi game? </h5>
-										</button>
-									</h2>
-									<div id="flush-collapseFourSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingFourSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-												The total duration of a Kabaddi game is 40 minutes that is split into two equal 20-minute halves.
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="accordion-item">
-									<h2 class="accordion-header" id="flush-headingfiveSoccer">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-											data-bs-target="#flush-collapsefiveSoccer" aria-expanded="false" aria-controls="flush-collapsefiveSoccer">
-											<h5>Q.5 How can you make money playing Fantasy Kabaddi?</h5>
-										</button>
-									</h2>
-									<div id="flush-collapsefiveSoccer" class="accordion-collapse collapse" aria-labelledby="flush-headingfiveSoccer"
-										data-bs-parent="#accordionFlushExampleSoccer">
-										<div class="accordion-body">
-											<p>
-											You can bag loads of money while playing fantasy kabaddi. All you have to do is:
-												<ul>
-													<li>Download the Notout11 app.</li>
-													<li>Sign up with us filling out the essential details. </li>
-													<li>Select Kabaddi available on the top of the home screen of the platform .</li>
-													<li>Choose a contest of your choice</li>
-													<li>Create your team of 7 players </li>
-													<li>Track the performance of your team </li>
-												</u>
-												<strong>After winning a contest, withdraw your winnings from your Notout11 wallet. So, Play More to Make More Money!</strong>
-											</p>
-										</div>
-									</div>
+									</p>
 								</div>
 							</div>
 						</div>
-						<!-- <div class="tab-pane fade" id="pills-ludo" role="tabpanel" aria-labelledby="pills-ludo-tab">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingTwoSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTwoSoccer" aria-expanded="false"
+									aria-controls="flush-collapseTwoSoccer">
+									<h5>Q.2 How is Notout11 fantasy Kabaddi different from any other fantasy kabaddi?
+									</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseTwoSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingTwoSoccer" data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										Notout11 serves you with the finest experience in the field of online kabaddi.
+										Known for its contributions in the realm of fantasy cricket, football and ludo,
+										Notout11 is now bringing India’s very own Kabaddi for your enjoyment. From
+										various kabaddi leagues to daily rewards, the fastest growing fantasy platform
+										has it all to make you go wow!
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingThreeSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseThreeSoccer" aria-expanded="false"
+									aria-controls="flush-collapseThreeSoccer">
+									<h5>Q.3 How to win fantasy Kabaddi? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseThreeSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingThreeSoccer"
+								data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										Winning a fantasy kabaddi game requires skill, patience, and perseverance.
+										India’s Trusted Fantasy Sports app, Notout11 offers a transparent process of
+										offering virtual games and then deciding the winners solely based on their
+										performances. A player gains some points based on his selection of players and
+										their respective performance in the real matches.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingFourSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseFourSoccer" aria-expanded="false"
+									aria-controls="flush-collapseFourSoccer">
+									<h5>Q.4 What is the duration of a Kabaddi game? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseFourSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingFourSoccer" data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										The total duration of a Kabaddi game is 40 minutes that is split into two equal
+										20-minute halves.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingfiveSoccer">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapsefiveSoccer" aria-expanded="false"
+									aria-controls="flush-collapsefiveSoccer">
+									<h5>Q.5 How can you make money playing Fantasy Kabaddi?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapsefiveSoccer" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingfiveSoccer" data-bs-parent="#accordionFlushExampleSoccer">
+								<div class="accordion-body">
+									<p>
+										You can bag loads of money while playing fantasy kabaddi. All you have to do is:
+									<ul>
+										<li>Download the Notout11 app.</li>
+										<li>Sign up with us filling out the essential details. </li>
+										<li>Select Kabaddi available on the top of the home screen of the platform .
+										</li>
+										<li>Choose a contest of your choice</li>
+										<li>Create your team of 7 players </li>
+										<li>Track the performance of your team </li>
+										</u>
+										<strong>After winning a contest, withdraw your winnings from your Notout11
+											wallet. So, Play More to Make More Money!</strong>
+										</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="tab-pane fade" id="pills-ludo" role="tabpanel" aria-labelledby="pills-ludo-tab">
 							<h5 >LUDO</h5>
 							<div class="accordion accordion-flush" id="accordionFlushExampleSoccer">
 								<div class="accordion-item">
@@ -779,8 +887,8 @@
 								</div>
 							</div>
 						</div> -->
-						<div class="tab-pane fade" id="pills-ludo" role="tabpanel" aria-labelledby="pills-ludo-tab">
-								<!-- <h5>LUDO</h5>
+				<div class="tab-pane fade" id="pills-ludo" role="tabpanel" aria-labelledby="pills-ludo-tab">
+					<!-- <h5>LUDO</h5>
 								<div class="accordion accordion-flush" id="accordionFlushExampleSpot">
 									<div class="accordion-item">
 										<h2 class="accordion-header" id="flush-headingOneSpot1">
@@ -824,419 +932,457 @@
 											</div>
 										</div>
 									</div> -->
-								<div>
-									<h5>CARROM</h5>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingSixSpot4">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseSixSpot4" aria-expanded="false" aria-controls="flush-collapseSixSpot4">
-												<h5>Q.1 What is a foul in Carrom?</h5>
-											</button>
-										</h2>
-										<div id="flush-collapseSixSpot4" class="accordion-collapse collapse" aria-labelledby="flush-headingSixSpot4"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													<ul>
-														<p>The following actions are categorised as a foul:</p>
-														<li>Pocketing the Striker</li>
-														<li>If a player pockets an opponent's piece</li>
-														<li>If a piece leaves the board</li>
-														<li>If a player's final piece is pocketed before the Queen has been covered</li>
-														<li>The player incorrectly positions the striker before taking a shot</li>
-														<li>A Players arm crosses the diagonal foul line on the board</li>
-														<li>If a player fails to break correctly on their three attempts</li>
-													</ul>
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingSevenSpot5">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseSevenSpot5" aria-expanded="false" aria-controls="flush-collapseSevenSpot5">
-												<h5>Q.2 How to Successfully Cover the Queen? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseSevenSpot5" class="accordion-collapse collapse" aria-labelledby="flush-headingSevenSpot5"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-												To pocket and cover the Queen, a player must first pocket their own colour Coin. Then on their subsequent go, pocket the Queen. If a Queen is pocketed on a player's first turn, the Queen gets returned to the centre of the board.
-												After a player has pocketed and correctly covered the Queen, the board will be won by the player who sinks all their own Coins.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingEightSpot6">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseEightSpot6" aria-expanded="false" aria-controls="flush-collapseEightSpot6">
-												<h5>Q.3 Can I win real money via Notout11 Carrom? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseEightSpot6" class="accordion-collapse collapse" aria-labelledby="flush-headingEightSpot6"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													Yes! You can enter matches for real money, and once you’ve reached the minimum threshold, you will be able to withdraw your cash winnings.
-												</p>
-											</div>
-										</div>
-									</div>
-									
+					<div>
+						<h5>CARROM</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingSixSpot4">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseSixSpot4" aria-expanded="false"
+									aria-controls="flush-collapseSixSpot4">
+									<h5>Q.1 What is a foul in Carrom?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseSixSpot4" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingSixSpot4" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+									<ul>
+										<p>The following actions are categorised as a foul:</p>
+										<li>Pocketing the Striker</li>
+										<li>If a player pockets an opponent's piece</li>
+										<li>If a piece leaves the board</li>
+										<li>If a player's final piece is pocketed before the Queen has been covered</li>
+										<li>The player incorrectly positions the striker before taking a shot</li>
+										<li>A Players arm crosses the diagonal foul line on the board</li>
+										<li>If a player fails to break correctly on their three attempts</li>
+									</ul>
+									</p>
 								</div>
-								<div>
-									<h5>SOLITAIRE</h5>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingElevenSpot9">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseElevenSpot9" aria-expanded="false" aria-controls="flush-collapseElevenSpot9">
-												<h5>Q.1 Who invented Solitaire?</h5>
-											</button>
-										</h2>
-										<div id="flush-collapseElevenSpot9" class="accordion-collapse collapse" aria-labelledby="flush-headingElevenSpot9"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-												There is no single person credited with inventing solitaire, however, their origins date back to Europe in the mid 1700s. Since then, the game has evolved into the popular variations you play today.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingTwelveSpot10">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseTwelveSpot10" aria-expanded="false" aria-controls="flush-collapseTwelveSpot10">
-												<h5>Q.2 How do I win? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseTwelveSpot10" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelveSpot10"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-												You can win the game by completely clearing the game’s tableau.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingThirteenSpot11">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseThirteenSpot11" aria-expanded="false" aria-controls="flush-collapseThirteenSpot11">
-												<h5>Q.3 Can I win real money on Notout11 Solitaire? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseThirteenSpot11" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteenSpot11"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-												Yes! You can enter matches for real money, and once you’ve reached the minimum threshold, you will be able to withdraw your cash winnings.
-												</p>
-											</div>
-										</div>
-									</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingSevenSpot5">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseSevenSpot5" aria-expanded="false"
+									aria-controls="flush-collapseSevenSpot5">
+									<h5>Q.2 How to Successfully Cover the Queen? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseSevenSpot5" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingSevenSpot5" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										To pocket and cover the Queen, a player must first pocket their own colour Coin.
+										Then on their subsequent go, pocket the Queen. If a Queen is pocketed on a
+										player's first turn, the Queen gets returned to the centre of the board.
+										After a player has pocketed and correctly covered the Queen, the board will be
+										won by the player who sinks all their own Coins.
+									</p>
 								</div>
-								<div>
-									<h5>Bubble Shooter</h5>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingNineSpot7">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseNineSpot7" aria-expanded="false" aria-controls="flush-collapseNineSpot7">
-												<h5>Q.1 What is the objective of the game? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseNineSpot7" class="accordion-collapse collapse" aria-labelledby="flush-headingNineSpot7"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													The goal of the game is to clear the playing field by forming groups of three or more bubbles/marbles of the same colour.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingTanSpot8">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseTanSpot8" aria-expanded="false" aria-controls="flush-collapseTanSpot8">
-												<h5>Q.2 How can I win in Bubble Shooter? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseTanSpot8" class="accordion-collapse collapse" aria-labelledby="flush-headingTanSpot8"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													The more bubbles you burst in a span of 2 minutes, the more points you will be scoring. The more points you gain, the more are your chances of winning the game. 
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingTanSpot21">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseTanSpot21" aria-expanded="false" aria-controls="flush-collapseTanSpot21">
-												<h5>Q.3 Can I win real money by playing Notout11 Bubble Shooter ? </h5>
-											</button>
-										</h2>
-										<div id="flush-collapseTanSpot21" class="accordion-collapse collapse" aria-labelledby="flush-headingTanSpot21"
-											data-bs-parent="#accordionFlushExampleSpot">
-											<div class="accordion-body">
-												<p>
-													Yes! You can enter matches for real money, and once you’ve reached the minimum threshold, you will be able to withdraw your cash winnings.
-												</p>
-											</div>
-										</div>
-									</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingEightSpot6">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseEightSpot6" aria-expanded="false"
+									aria-controls="flush-collapseEightSpot6">
+									<h5>Q.3 Can I win real money via Notout11 Carrom? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseEightSpot6" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingEightSpot6" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										Yes! You can enter matches for real money, and once you’ve reached the minimum
+										threshold, you will be able to withdraw your cash winnings.
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div>
+						<h5>SOLITAIRE</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingElevenSpot9">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseElevenSpot9" aria-expanded="false"
+									aria-controls="flush-collapseElevenSpot9">
+									<h5>Q.1 Who invented Solitaire?</h5>
+								</button>
+							</h2>
+							<div id="flush-collapseElevenSpot9" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingElevenSpot9" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										There is no single person credited with inventing solitaire, however, their
+										origins date back to Europe in the mid 1700s. Since then, the game has evolved
+										into the popular variations you play today.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingTwelveSpot10">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTwelveSpot10" aria-expanded="false"
+									aria-controls="flush-collapseTwelveSpot10">
+									<h5>Q.2 How do I win? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseTwelveSpot10" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingTwelveSpot10" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										You can win the game by completely clearing the game’s tableau.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingThirteenSpot11">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseThirteenSpot11" aria-expanded="false"
+									aria-controls="flush-collapseThirteenSpot11">
+									<h5>Q.3 Can I win real money on Notout11 Solitaire? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseThirteenSpot11" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingThirteenSpot11"
+								data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										Yes! You can enter matches for real money, and once you’ve reached the minimum
+										threshold, you will be able to withdraw your cash winnings.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<h5>Bubble Shooter</h5>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingNineSpot7">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseNineSpot7" aria-expanded="false"
+									aria-controls="flush-collapseNineSpot7">
+									<h5>Q.1 What is the objective of the game? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseNineSpot7" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingNineSpot7" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										The goal of the game is to clear the playing field by forming groups of three or
+										more bubbles/marbles of the same colour.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingTanSpot8">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTanSpot8" aria-expanded="false"
+									aria-controls="flush-collapseTanSpot8">
+									<h5>Q.2 How can I win in Bubble Shooter? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseTanSpot8" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingTanSpot8" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										The more bubbles you burst in a span of 2 minutes, the more points you will be
+										scoring. The more points you gain, the more are your chances of winning the
+										game.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingTanSpot21">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseTanSpot21" aria-expanded="false"
+									aria-controls="flush-collapseTanSpot21">
+									<h5>Q.3 Can I win real money by playing Notout11 Bubble Shooter ? </h5>
+								</button>
+							</h2>
+							<div id="flush-collapseTanSpot21" class="accordion-collapse collapse"
+								aria-labelledby="flush-headingTanSpot21" data-bs-parent="#accordionFlushExampleSpot">
+								<div class="accordion-body">
+									<p>
+										Yes! You can enter matches for real money, and once you’ve reached the minimum
+										threshold, you will be able to withdraw your cash winnings.
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="sticky_buttons">
-			<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
-			<div class="appLink-ic">
-				<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
-					<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
-				</a>
-			</div>
-			<div class="appLink-ic">
-				<a href="#" onclick="gtag_report_conversion('#')">
-					<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
-				</a>
-			</div>
-		</div>
-			
-<section id="footer">
-	<div class="newsletter">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8 col-lg-9 text-left">
-					<a href="index.html">
-						<img src="new_script/img/logo.png" alt="">
-					</a>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
-					<div>
-						<h5 class="security_games">Security & Game Integrity</h5>
-						<div class="responsible_play">
-						<a href="play-responsible.html">
-								<button>Responsibly Play  <i class="far fa-hand-point-right"></i></button>
-								<img src="new_script/images/18adult123.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="input-group" hidden>
-						<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
-						<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
-	<div class="underline"></div>
-	<!--end newsletter div-->
+	</div>
+	<div class="sticky_buttons">
+		<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
+				<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
+			</a>
+		</div>
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')">
+				<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
+			</a>
+		</div>
+	</div>
 
-	<!--start footer div-->
-	<div class="footer">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div>
-						<h3>DISCLAIMER</h3>
-						<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any association or affiliation in any manner with any sports governing leagues or authorities, including (but not limited to) the Board of Control for Cricket in India (BCCI), unless specified otherwise.</p>
+	<section id="footer">
+		<div class="newsletter">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8 col-lg-9 text-left">
+						<a href="index.html">
+							<img src="new_script/img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
+						<div>
+							<h5 class="security_games">Security & Game Integrity</h5>
+							<div class="responsible_play">
+								<a href="play-responsible.html">
+									<button>Responsibly Play <i class="far fa-hand-point-right"></i></button>
+									<img src="new_script/images/18adult123.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="input-group" hidden>
+							<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
+							<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 footer-div footer-center">
-					<div class="">
-						<h3>FIND OUT MORE</h3>
-						<li>
-							<a href="how-to-play.html">How to Play</a>
-						</li>
-						<li>
-							<a href="fantasy-cricket.html">Fantasy Cricket</a>
-						</li>
-						<li>
-							<a href="fantasy-football.html">Fantasy Football</a>
-						</li>
-						<li>
-							<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
-						</li>
-						<li>
-							<a href="play-ludo-online.html">Ludo</a>
-						</li>
-						<!-- <li>
+			</div>
+		</div>
+		<div class="underline"></div>
+		<!--end newsletter div-->
+
+		<!--start footer div-->
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div>
+							<h3>DISCLAIMER</h3>
+							<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any
+								association or affiliation in any manner with any sports governing leagues or
+								authorities, including (but not limited to) the Board of Control for Cricket in India
+								(BCCI), unless specified otherwise.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 footer-div footer-center">
+						<div class="">
+							<h3>FIND OUT MORE</h3>
+							<li>
+								<a href="how-to-play.html">How to Play</a>
+							</li>
+							<li>
+								<a href="fantasy-cricket.html">Fantasy Cricket</a>
+							</li>
+							<li>
+								<a href="fantasy-football.html">Fantasy Football</a>
+							</li>
+							<li>
+								<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
+							</li>
+							<li>
+								<a href="play-ludo-online.html">Ludo</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-app">Fantasy Cricket app</a>
 						</li> -->
-						<li>
-							<a href="fantasy-points-system.html">Points System</a>
-						</li>
-						<!-- <li>
+							<li>
+								<a href="fantasy-points-system.html">Points System</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-league">Fantasy Cricket League</a>
 						</li> -->
-						<li>
-							<a href="faq.html">FAQs</a>
-						</li>
-						<li>
-							<a href="press-release.html">Press Release</a>
-						</li>
+							<li>
+								<a href="faq.html">FAQs</a>
+							</li>
+							<li>
+								<a href="press-release.html">Press Release</a>
+							</li>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div  footer-center">
-					<div class="">
-						<h3>ABOUT US</h3>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about-us.html">About us</a>
-						</li>
-						<li>
-							<a href="privacy-policy.html">Privacy Policy</a>
-						</li>
-						<li>
-							<a href="terms-conditions.html">Terms and Conditions</a>
-						</li>
-						<!-- <li>
+					<div class="col-md-6 col-lg-3 footer-div  footer-center">
+						<div class="">
+							<h3>ABOUT US</h3>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about-us.html">About us</a>
+							</li>
+							<li>
+    <a href="privacy-policy.html">Privacy Policy</a>
+</li>
+<li>
+    <a href="pricing-policy.html">Pricing Policy</a>
+</li>
+							<li>
+								<a href="refund-cancellation-policy.html">Refund & Cancellation Policy</a>
+							</li>
+							<li>
+								<a href="terms-conditions.html">Terms and Conditions</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/league">Indian T20 League</a>
 						</li> -->
-						<li>
-							<a href="offers.html">Offers</a>
-						</li>
-						<li>
-							<a href="blog-news.html">Blogs</a>
-						</li>
-						<li>
-							<a href="career-with-us.html">Career</a>
-						</li>
-						
+							<li>
+								<a href="offers.html">Offers</a>
+							</li>
+							<li>
+								<a href="blog-news.html">Blogs</a>
+							</li>
+							<li>
+								<a href="career-with-us.html">Career</a>
+							</li>
+
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div class="support d-flex flex-column">
-						<h3 id="support_id">SUPPORT</h3>
-						<p>Contact Us</p>
-						<p>CORPORATE OFFICE</p>
-						<p>GODLINE GAMING PVT LTD</p>
-						<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
-						<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p></p>
-						
-						<ul>
-							<li class="pl-1">
-								<a href="https://www.facebook.com/Notout11official" target="blank">
-									<img src="new_script/img/facebook.png" alt="facebook">
-								</a>
-							</li>
-							<li>
-								<a href="https://twitter.com/Notout11official" target="blank">
-									<img src="new_script/img/twitter.png" alt="twitter">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.youtube.com/Notout11Official" target="blank">
-									<img src="new_script/img/youtube.png" alt="youtube">
-								</a>
-							</li>
-							<li>
-								<a href="https://t.me/Notout11_OFFICIAL" target="blank">
-									<img src="new_script/img/telegram.png" alt="telegram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/company/Notout11official" target="blank">
-									<img src="new_script/img/linkedin.png" alt="linkedin">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/Notout11official" target="blank">
-									<img src="new_script/img/instagram.png" alt="instagram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
-									<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
-								</a>
-							</li>
-						</ul>
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div class="support d-flex flex-column">
+							<h3 id="support_id">SUPPORT</h3>
+							<p>Contact Us</p>
+							<p>Address:<span> plot no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024plot
+									no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024</span></p>
+							<p>GODLINE GAMING PVT LTD</p>
+							<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
+							<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p>
+							</p>
+
+							<ul>
+								<li class="pl-1">
+									<a href="https://www.facebook.com/Notout11official" target="blank">
+										<img src="new_script/img/facebook.png" alt="facebook">
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Notout11official" target="blank">
+										<img src="new_script/img/twitter.png" alt="twitter">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/Notout11Official" target="blank">
+										<img src="new_script/img/youtube.png" alt="youtube">
+									</a>
+								</li>
+								<li>
+									<a href="https://t.me/Notout11_OFFICIAL" target="blank">
+										<img src="new_script/img/telegram.png" alt="telegram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/Notout11official" target="blank">
+										<img src="new_script/img/linkedin.png" alt="linkedin">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/Notout11official" target="blank">
+										<img src="new_script/img/instagram.png" alt="instagram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
+										<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="underline"></div>
-	<!-- end footer div-->
+		<div class="underline"></div>
+		<!-- end footer div-->
 
 
-	<!--start copyright-->
-	<div class="copyright">
-		<div class="container-fluid">
-			<h3 class="py-3">Payment Partners</h3>
-			<div class="row">
-				<div class="col-md-8 payment-methods">
-					<ul class="d-flex pb-3">
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<!-- <li>
+		<!--start copyright-->
+		<div class="copyright">
+			<div class="container-fluid">
+				<h3 class="py-3">Payment Partners</h3>
+				<div class="row">
+					<div class="col-md-8 payment-methods">
+						<ul class="d-flex pb-3">
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<!-- <li>
 							<a href="javascript:void(0)">
 								<img src="https://Notout11.com/new_script/img/Frame 4.png" class="img-fluid" alt="">
 							</a>
 						</li> -->
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)">
-								<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-4 text-right">
-					<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-right">
+						<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<!--end copyright-->
-</section>
-<section>
-	<p class="text-center disc_adult">
-		This game involves an element of financial risk and may be addictive. Please play responsibly at your own risk.
-		<br />
-		This game is applicable for people 18+ only.
-	</p>
-</section>			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-				integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-				crossorigin="anonymous"></script>
-				<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
+		<!--end copyright-->
+	</section>
+	<section>
+		<p class="text-center disc_adult">
+			This game involves an element of financial risk and may be addictive. Please play responsibly at your own
+			risk.
+			<br />
+			This game is applicable for people 18+ only.
+		</p>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
 				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script> -->
 
-			<!-- Twitter universal website tag code -->
-			<script>
-				!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-				},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-				a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-				// Insert Twitter Pixel ID and Standard Event data below
-				twq('init','o5jjs');
-				twq('track','PageView');
-			</script>
-			<!-- End Twitter universal website tag code -->
+	<!-- Twitter universal website tag code -->
+	<script>
+		!function (e, t, n, s, u, a) {
+			e.twq || (s = e.twq = function () {
+				s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+			}, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+				a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+		}(window, document, 'script');
+		// Insert Twitter Pixel ID and Standard Event data below
+		twq('init', 'o5jjs');
+		twq('track', 'PageView');
+	</script>
+	<!-- End Twitter universal website tag code -->
 
-		</body>
-	</html>
+</body>
+
+</html>
 <!-- <html lang="en">
 	<head>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>

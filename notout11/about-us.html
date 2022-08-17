@@ -1,357 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
-		<!-- Global site tag (gtag.js) - Google Ads: 589306882 --> 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			 
-			gtag('config', 'UA-136973186-1');
-			gtag('config', 'AW-589306882');
-		</script>
-		<script>
-			window.addEventListener('load',function(){ 
-				jQuery('#andrd_link').click(function(){ 
-					gtag('event', 'download', {'event_category': 'app','event_label':'android'});
-				})
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
+	<!-- Global site tag (gtag.js) - Google Ads: 589306882 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-136973186-1');
+		gtag('config', 'AW-589306882');
+	</script>
+	<script>
+		window.addEventListener('load', function () {
+			jQuery('#andrd_link').click(function () {
+				gtag('event', 'download', { 'event_category': 'app', 'event_label': 'android' });
 			})
-		</script>
-		<!-- <script>
+		})
+	</script>
+	<!-- <script>
 			window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-589306882');
 		</script> -->
-		<!-- Facebook Pixel Code -->
-		<script>
-			!function(f,b,e,v,n,t,s)
-			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-			n.queue=[];t=b.createElement(e);t.async=!0;
-			t.src=v;s=b.getElementsByTagName(e)[0];
-			s.parentNode.insertBefore(t,s)}(window,document,'script',
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
 			'https://connect.facebook.net/en_US/fbevents.js');
-			fbq('init', '560345878459615'); 
-			fbq('track', 'PageView');
-		</script>
-		<noscript>
-			<img height="1" width="1" 
-				src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
-				&noscript=1"/>
-		</noscript>
+		fbq('init', '560345878459615');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
+				&noscript=1" />
+	</noscript>
 
-		<!-- End Facebook Pixel Code -->
-		<meta charset="UTF-8">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-	<link rel="stylesheet" href="new_script/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css"/>
-	<link rel="stylesheet" href="new_script/css/aboutus.css"/>
-	<link rel="stylesheet" href="new_script/css/league.css"/>
-	<link rel="stylesheet" href="new_script/css/custom.css"/>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-		<title>Notout11.com about us</title>
-	</head>
-	<body>
-		<div class="aboutus">
-			<img src="new_script/img/brand-Ambsaddor.jpg" class="img-fluid" alt="">
-			<div class="container-fluid">
-				<div class="position_top">
-					<a href="index.html"><img src="new_script/img/logo.png" class="img-fluid" alt=""></a>
+	<!-- End Facebook Pixel Code -->
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="new_script/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="new_script/css/aboutus.css" />
+	<link rel="stylesheet" href="new_script/css/league.css" />
+	<link rel="stylesheet" href="new_script/css/custom.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+	<title>Notout11.com about us</title>
+</head>
+
+<body>
+	<div class="aboutus">
+		<img src="new_script/img/brand-Ambsaddor.jpg" class="img-fluid" alt="">
+		<div class="container-fluid">
+			<div class="position_top">
+				<a href="index.html"><img src="new_script/img/logo.png" class="img-fluid" alt=""></a>
+			</div>
+		</div>
+	</div>
+	<!--start middle section-->
+	<div class="aboutus_middle">
+		<div class="container-fluid">
+			<div class="text-center">
+				<img src="new_script/img/aboutus_middle.png" class="img-fluid" alt="">
+			</div>
+			<div>
+				<h1>ABOUT US – Notout11</h1>
+				<p>
+					GODLINE GAMING PVT LTD is India's most authentic and trusted fantasy sports platform. Its unique and
+					innovative product offering has been successful in aligning with its exponentially growing user
+					base. It is a game of skill that offers cricket, football and kabaddi fans a platform to showcase
+					their fantasy knowledge. We facilitate the best User-Interface and User Experience, which helps the
+					individual to earn some handsome amount of money with their gaming knowledge. We always make sure
+					that our users get the smoothest experience while taking part in fantasy sports leagues. Here, fans
+					can create their own virtual team of real-life players for upcoming matches; score points based on
+					their on-field performance and compete with other fans.
+					After the successful signing of Gautam Gambhir and Ravinder Pahal, we recently roped in Indian women
+					star cricketer Taniya Bhatia as the face of our organisation. With her comprehensive understanding
+					and astute vision, the leading fantasy sports operator strives to reach the pinnacle of fantasy
+					sports.
+					<!-- We recently roped in  Indian kabaddi pro, Ravinder Pahal as the brand ambassador of the organisation. With his comprehensive understanding and astute vision, the leading fantasy operator strives to reach the pinnacle of fantasy sports. Apart from the hawk, we have former Indian cricketer Gautam Gambhir as the face of the burgeoning firm. Under his supervision and guidance, we have grown to become one of the best fantasy cricket apps in the nation. -->
+					<br><br>
+					Started as a platform solely dedicated to cricket leagues, Notout11 has now shifted to other sports
+					as well. Now you can enjoy fantasy football/kabaddi on our platform. Draft your teams, join from a
+					wide range of available contests and compete across a variety of cricket, football and kabaddi
+					leagues. From small domestic leagues to every major tournament, Notout11 allows the users to take
+					part in every match. Notout11 helps sports fans to connect deeper with the sport they love by being
+					an owner of the team, not just a spectator. It is a great platform for cricket, football and kabaddi
+					fans who want to make the best use of the comprehensive understanding of the game, and become the
+					part of the biggest sports community. Besides being a leader in the fantasy sports industry, we also
+					have other fun filled online games such as Solitaire, Carrom and Bubble Shooter. <br><br>
+
+					Our aim is to provide the best fantasy sports platform to our users and build a sports community
+					where people can share their ideas. Currently, we are limited to only cricket, football and kabaddi
+					fantasy games but soon, we’ll increase our bandwidth by including other sports. We are targeting to
+					build a strong user base and maintain excellent service for our users. We are understanding the
+					market needs and setting our goals accordingly. Notout11 understands its users and serves them with
+					the best features to enhance their experience with us.
+				</p>
+			</div>
+			<div class="aboutus_lastmid">
+				<div class="row">
+					<div class="first_col col-12 col-md-6">
+						<img src="new_script/img/aboutus_bottommob.png" class="img-fluid" alt="">
+					</div>
+					<div
+						class="second_col col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+						<h3>DOWNLOAD THE Notout11 APP NOW</h3>
+						<div class="d-flex">
+							<a href="https://Notout11.com//Notout11.apk"
+								onclick="gtag_report_conversion('https://Notout11.com//Notout11.apk')">
+								<img src="new_script/img/android.png" class="img-fluid" alt="">
+							</a>
+							<a href="#" onclick="gtag_report_conversion('#')">
+								<img src="new_script/img/app-store.png" class="img-fluid" alt="">
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!--start middle section-->
-		<div class="aboutus_middle">
+	</div>
+	<!--End middle section-->
+	<div class="sticky_buttons">
+		<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
+				<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
+			</a>
+		</div>
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')">
+				<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
+			</a>
+		</div>
+	</div>
+
+	<section id="footer">
+		<div class="newsletter">
 			<div class="container-fluid">
-				<div class="text-center">
-					<img src="new_script/img/aboutus_middle.png" class="img-fluid" alt="">
-				</div>
-				<div>
-					<h1>ABOUT US – Notout11</h1>
-					<p>
-						GODLINE GAMING PVT LTD is India's most authentic and trusted fantasy sports platform. Its unique and innovative product offering has been successful in aligning with its exponentially growing user base. It is a game of skill that offers cricket, football and kabaddi fans a platform to showcase their fantasy knowledge. We facilitate the best User-Interface and User Experience, which helps the individual to earn some handsome amount of money with their gaming knowledge. We always make sure that our users get the smoothest experience while taking part in fantasy sports leagues. Here, fans can create their own virtual team of real-life players for upcoming matches; score points based on their on-field performance and compete with other fans. 
-						After the successful signing of Gautam Gambhir and Ravinder Pahal, we recently roped in Indian women star cricketer Taniya Bhatia as the face of our organisation. With her comprehensive understanding and astute vision, the leading fantasy sports operator strives to reach the pinnacle of fantasy sports.
-						<!-- We recently roped in  Indian kabaddi pro, Ravinder Pahal as the brand ambassador of the organisation. With his comprehensive understanding and astute vision, the leading fantasy operator strives to reach the pinnacle of fantasy sports. Apart from the hawk, we have former Indian cricketer Gautam Gambhir as the face of the burgeoning firm. Under his supervision and guidance, we have grown to become one of the best fantasy cricket apps in the nation. -->
-					<br><br>
-						Started as a platform solely dedicated to cricket leagues, Notout11 has now shifted to other sports as well. Now you can enjoy fantasy football/kabaddi on our platform. Draft your teams, join from a wide range of available contests and compete across a variety of cricket, football and kabaddi leagues. From small domestic leagues to every major tournament, Notout11 allows the users to take part in every match. Notout11 helps sports fans to connect deeper with the sport they love by being an owner of the team, not just a spectator. It is a great platform for cricket, football and kabaddi fans who want to make the best use of the comprehensive understanding of the game, and become the part of the biggest sports community. Besides being a leader in the fantasy sports industry, we also have other fun filled online games such as Solitaire, Carrom and Bubble Shooter. <br><br>
-						
-						Our aim is to provide the best fantasy sports platform to our users and build a sports community where people can share their ideas. Currently, we are limited to only cricket, football and kabaddi fantasy games but soon, we’ll increase our bandwidth by including other sports. We are targeting to build a strong user base and maintain excellent service for our users. We are understanding the market needs and setting our goals accordingly. Notout11 understands its users and serves them with the best features to enhance their experience with us.
-					</p>
-				</div>
-				<div class="aboutus_lastmid">
-					<div class="row">
-						<div class="first_col col-12 col-md-6">
-							<img src="new_script/img/aboutus_bottommob.png" class="img-fluid" alt="">
+				<div class="row">
+					<div class="col-md-8 col-lg-9 text-left">
+						<a href="index.html">
+							<img src="new_script/img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
+						<div>
+							<h5 class="security_games">Security & Game Integrity</h5>
+							<div class="responsible_play">
+								<a href="play-responsible.html">
+									<button>Responsibly Play <i class="far fa-hand-point-right"></i></button>
+									<img src="new_script/images/18adult123.png" alt="">
+								</a>
+							</div>
 						</div>
-						<div class="second_col col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
-							<h3>DOWNLOAD THE Notout11 APP NOW</h3>
-							<div class="d-flex">
-								<a href="https://Notout11.com//Notout11.apk" onclick="gtag_report_conversion('https://Notout11.com//Notout11.apk')" >
-									<img src="new_script/img/android.png" class="img-fluid" alt="">
-								</a>
-								<a href="#" onclick="gtag_report_conversion('#')" >
-									<img src="new_script/img/app-store.png" class="img-fluid" alt="">
-								</a>
+						<div class="input-group" hidden>
+							<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
+							<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--End middle section-->
-		<div class="sticky_buttons">
-			<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
-			<div class="appLink-ic">
-				<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
-					<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
-				</a>
-			</div>
-			<div class="appLink-ic">
-				<a href="#" onclick="gtag_report_conversion('#')">
-					<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
-				</a>
-			</div>
-		</div>
-		
-<section id="footer">
-	<div class="newsletter">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8 col-lg-9 text-left">
-					<a href="index.html">
-						<img src="new_script/img/logo.png" alt="">
-					</a>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
-					<div>
-						<h5 class="security_games">Security & Game Integrity</h5>
-						<div class="responsible_play">
-						<a href="play-responsible.html">
-								<button>Responsibly Play  <i class="far fa-hand-point-right"></i></button>
-								<img src="new_script/images/18adult123.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="input-group" hidden>
-						<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
-						<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="underline"></div>
-	<!--end newsletter div-->
+		<div class="underline"></div>
+		<!--end newsletter div-->
 
-	<!--start footer div-->
-	<div class="footer">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div>
-						<h3>DISCLAIMER</h3>
-						<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any association or affiliation in any manner with any sports governing leagues or authorities, including (but not limited to) the Board of Control for Cricket in India (BCCI), unless specified otherwise.</p>
+		<!--start footer div-->
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div>
+							<h3>DISCLAIMER</h3>
+							<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any
+								association or affiliation in any manner with any sports governing leagues or
+								authorities, including (but not limited to) the Board of Control for Cricket in India
+								(BCCI), unless specified otherwise.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div footer-center">
-					<div class="">
-						<h3>FIND OUT MORE</h3>
-						<li>
-							<a href="how-to-play.html">How to Play</a>
-						</li>
-						<li>
-							<a href="fantasy-cricket.html">Fantasy Cricket</a>
-						</li>
-						<li>
-							<a href="fantasy-football.html">Fantasy Football</a>
-						</li>
-						<li>
-							<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
-						</li>
-						<li>
-							<a href="play-ludo-online.html">Ludo</a>
-						</li>
-						<!-- <li>
+					<div class="col-md-6 col-lg-3 footer-div footer-center">
+						<div class="">
+							<h3>FIND OUT MORE</h3>
+							<li>
+								<a href="how-to-play.html">How to Play</a>
+							</li>
+							<li>
+								<a href="fantasy-cricket.html">Fantasy Cricket</a>
+							</li>
+							<li>
+								<a href="fantasy-football.html">Fantasy Football</a>
+							</li>
+							<li>
+								<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
+							</li>
+							<li>
+								<a href="play-ludo-online.html">Ludo</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-app">Fantasy Cricket app</a>
 						</li> -->
-						<li>
-							<a href="fantasy-points-system.html">Points System</a>
-						</li>
-						<!-- <li>
+							<li>
+								<a href="fantasy-points-system.html">Points System</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-league">Fantasy Cricket League</a>
 						</li> -->
-						<li>
-							<a href="faq.html">FAQs</a>
-						</li>
-						<li>
-							<a href="press-release.html">Press Release</a>
-						</li>
+							<li>
+								<a href="faq.html">FAQs</a>
+							</li>
+							<li>
+								<a href="press-release.html">Press Release</a>
+							</li>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div  footer-center">
-					<div class="">
-						<h3>ABOUT US</h3>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about-us.html">About us</a>
-						</li>
-						<li>
-							<a href="privacy-policy.html">Privacy Policy</a>
-						</li>
-						<li>
-							<a href="terms-conditions.html">Terms and Conditions</a>
-						</li>
-						<!-- <li>
+					<div class="col-md-6 col-lg-3 footer-div  footer-center">
+						<div class="">
+							<h3>ABOUT US</h3>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about-us.html">About us</a>
+							</li>
+							<li>
+    <a href="privacy-policy.html">Privacy Policy</a>
+</li>
+<li>
+    <a href="pricing-policy.html">Pricing Policy</a>
+</li>
+							<li>
+								<a href="refund-cancellation-policy.html">Refund & Cancellation Policy</a>
+							</li>
+							<li>
+								<a href="terms-conditions.html">Terms and Conditions</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/league">Indian T20 League</a>
 						</li> -->
-						<li>
-							<a href="offers.html">Offers</a>
-						</li>
-						<li>
-							<a href="blog-news.html">Blogs</a>
-						</li>
-						<li>
-							<a href="career-with-us.html">Career</a>
-						</li>
-						
+							<li>
+								<a href="offers.html">Offers</a>
+							</li>
+							<li>
+								<a href="blog-news.html">Blogs</a>
+							</li>
+							<li>
+								<a href="career-with-us.html">Career</a>
+							</li>
+
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div class="support d-flex flex-column">
-						<h3 id="support_id">SUPPORT</h3>
-						<p>Contact Us</p>
-						<p>CORPORATE OFFICE</p>
-						<p>GODLINE GAMING PVT LTD</p>
-						<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
-						<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p></p>
-						
-						<ul>
-							<li class="pl-1">
-								<a href="https://www.facebook.com/Notout11official" target="blank">
-									<img src="new_script/img/facebook.png" alt="facebook">
-								</a>
-							</li>
-							<li>
-								<a href="https://twitter.com/Notout11official" target="blank">
-									<img src="new_script/img/twitter.png" alt="twitter">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.youtube.com/Notout11Official" target="blank">
-									<img src="new_script/img/youtube.png" alt="youtube">
-								</a>
-							</li>
-							<li>
-								<a href="https://t.me/Notout11_OFFICIAL" target="blank">
-									<img src="new_script/img/telegram.png" alt="telegram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/company/Notout11official" target="blank">
-									<img src="new_script/img/linkedin.png" alt="linkedin">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/Notout11official" target="blank">
-									<img src="new_script/img/instagram.png" alt="instagram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
-									<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
-								</a>
-							</li>
-						</ul>
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div class="support d-flex flex-column">
+							<h3 id="support_id">SUPPORT</h3>
+							<p>Contact Us</p>
+							<p>Address:<span> plot no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024plot
+									no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024</span></p>
+							<p>GODLINE GAMING PVT LTD</p>
+							<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
+							<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p>
+							</p>
+
+							<ul>
+								<li class="pl-1">
+									<a href="https://www.facebook.com/Notout11official" target="blank">
+										<img src="new_script/img/facebook.png" alt="facebook">
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Notout11official" target="blank">
+										<img src="new_script/img/twitter.png" alt="twitter">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/Notout11Official" target="blank">
+										<img src="new_script/img/youtube.png" alt="youtube">
+									</a>
+								</li>
+								<li>
+									<a href="https://t.me/Notout11_OFFICIAL" target="blank">
+										<img src="new_script/img/telegram.png" alt="telegram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/Notout11official" target="blank">
+										<img src="new_script/img/linkedin.png" alt="linkedin">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/Notout11official" target="blank">
+										<img src="new_script/img/instagram.png" alt="instagram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
+										<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="underline"></div>
-	<!-- end footer div-->
+		<div class="underline"></div>
+		<!-- end footer div-->
 
 
-	<!--start copyright-->
-	<div class="copyright">
-		<div class="container-fluid">
-			<h3 class="py-3">Payment Partners</h3>
-			<div class="row">
-				<div class="col-md-8 payment-methods">
-					<ul class="d-flex pb-3">
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<!-- <li>
+		<!--start copyright-->
+		<div class="copyright">
+			<div class="container-fluid">
+				<h3 class="py-3">Payment Partners</h3>
+				<div class="row">
+					<div class="col-md-8 payment-methods">
+						<ul class="d-flex pb-3">
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<!-- <li>
 							<a href="javascript:void(0)">
 								<img src="https://Notout11.com/new_script/img/Frame 4.png" class="img-fluid" alt="">
 							</a>
 						</li> -->
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)">
-								<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-4 text-right">
-					<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-right">
+						<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<!--end copyright-->
-</section>
-<section>
-	<p class="text-center disc_adult">
-		This game involves an element of financial risk and may be addictive. Please play responsibly at your own risk.
-		<br />
-		This game is applicable for people 18+ only.
-	</p>
-</section>
-		<script>
-			function gtag_report_conversion(url) {
-				var callback = function () {
-					if (typeof(url) != 'undefined') {
-						window.location = url;
-					}
-				};
-				gtag('event', 'conversion', { 'send_to': 'AW-589306882/OgpnCPit1d8BEIK4gJkC', 'event_callback': callback });
-				return false;
-			}
-		</script>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
-		
-		<!-- Twitter universal website tag code -->
-		<script>
-			!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-			},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-			a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-			// Insert Twitter Pixel ID and Standard Event data below
-			twq('init','o5jjs');
-			twq('track','PageView');
-		</script>
-		<!-- End Twitter universal website tag code -->
-	</body>
+
+		<!--end copyright-->
+	</section>
+	<section>
+		<p class="text-center disc_adult">
+			This game involves an element of financial risk and may be addictive. Please play responsibly at your own
+			risk.
+			<br />
+			This game is applicable for people 18+ only.
+		</p>
+	</section>
+	<script>
+		function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof (url) != 'undefined') {
+					window.location = url;
+				}
+			};
+			gtag('event', 'conversion', { 'send_to': 'AW-589306882/OgpnCPit1d8BEIK4gJkC', 'event_callback': callback });
+			return false;
+		}
+	</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<!-- Twitter universal website tag code -->
+	<script>
+		!function (e, t, n, s, u, a) {
+			e.twq || (s = e.twq = function () {
+				s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+			}, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+				a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+		}(window, document, 'script');
+		// Insert Twitter Pixel ID and Standard Event data below
+		twq('init', 'o5jjs');
+		twq('track', 'PageView');
+	</script>
+	<!-- End Twitter universal website tag code -->
+</body>
+
 </html>

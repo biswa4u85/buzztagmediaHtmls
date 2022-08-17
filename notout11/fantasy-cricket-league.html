@@ -1,526 +1,634 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
-		<!-- Global site tag (gtag.js) - Google Ads: 589306882 --> 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			
-			gtag('config', 'UA-136973186-1');
-			gtag('config', 'AW-589306882');
-		</script>
-		<script>
-			window.addEventListener('load',function(){ 
-				jQuery('#andrd_link').click(function(){ 
-					gtag('event', 'download', {'event_category': 'app','event_label':'android'});
-				})
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136973186-1"></script>
+	<!-- Global site tag (gtag.js) - Google Ads: 589306882 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-589306882"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-136973186-1');
+		gtag('config', 'AW-589306882');
+	</script>
+	<script>
+		window.addEventListener('load', function () {
+			jQuery('#andrd_link').click(function () {
+				gtag('event', 'download', { 'event_category': 'app', 'event_label': 'android' });
 			})
-		</script>
-		<!-- <script>
+		})
+	</script>
+	<!-- <script>
 			window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-589306882');
 		</script> -->
-		<!-- Facebook Pixel Code -->
-		<script>
-			!function(f,b,e,v,n,t,s)
-			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-			n.queue=[];t=b.createElement(e);t.async=!0;
-			t.src=v;s=b.getElementsByTagName(e)[0];
-			s.parentNode.insertBefore(t,s)}(window,document,'script',
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
 			'https://connect.facebook.net/en_US/fbevents.js');
-			fbq('init', '560345878459615'); 
-			fbq('track', 'PageView');
-		</script>
-		<noscript>
-			<img height="1" width="1" 
-				src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
-				&noscript=1"/>
-		</noscript>
-		<!-- End Facebook Pixel Code -->
-		<meta charset="UTF-8">
-		
-	<link rel="stylesheet" href="new_script/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css"/>
-	<link rel="stylesheet" href="new_script/css/custom.css"/>
-	<link rel="stylesheet" href="new_script/css/howtoplay.css"/>
-	<link rel="stylesheet" href="new_script/css/fantasy_cricket_league.css"/>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Daily take part in fantasy cricket leagues on Notout11 App.</title>
-		<meta name="description" content="Install now India’s best fantasy cricket app – Notout11 & win cash prizes daily by taking part in online fantasy cricket leagues.">
-		<meta name="keywords" content="fantasy cricket league, indian fantasy league, cricket league fantasy, fantasy cricket legue, fantasy cricket league app, fantasy league cricket, cricket fantasy league.">
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<!--banner start-->
-		<div class="header-bar">
-			<div class="mobile_view"></div>
-			<div class="container-fluid">
-				<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="header-up">
-						<a class="navbar-brand" href="index.html"><img src="new_script/img/logo.png" alt=""></a>
-					</div>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		fbq('init', '560345878459615');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=560345878459615&ev=PageView
+				&noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="new_script/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="new_script/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="new_script/css/custom.css" />
+	<link rel="stylesheet" href="new_script/css/howtoplay.css" />
+	<link rel="stylesheet" href="new_script/css/fantasy_cricket_league.css" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Daily take part in fantasy cricket leagues on Notout11 App.</title>
+	<meta name="description"
+		content="Install now India’s best fantasy cricket app – Notout11 & win cash prizes daily by taking part in online fantasy cricket leagues.">
+	<meta name="keywords"
+		content="fantasy cricket league, indian fantasy league, cricket league fantasy, fantasy cricket legue, fantasy cricket league app, fantasy league cricket, cricket fantasy league.">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!--banner start-->
+	<div class="header-bar">
+		<div class="mobile_view"></div>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="header-up">
+					<a class="navbar-brand" href="index.html"><img src="new_script/img/logo.png" alt=""></a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-						<ul class="navbar-nav ">
-							<li class="nav-item">
-								<a href="fantasy-cricket-league#" class="nav-link pr-4">Want to play fantasy cricket?</a>
-							</li>
-							<li class="nav-item top_button">
-								<a href="download.html" class="nav-link button-link ml-4 px-3">Download Now</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav ">
+						<li class="nav-item">
+							<a href="fantasy-cricket-league#" class="nav-link pr-4">Want to play fantasy cricket?</a>
+						</li>
+						<li class="nav-item top_button">
+							<a href="download.html" class="nav-link button-link ml-4 px-3">Download Now</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div class="banner_play">
+		<div class="container-fluid">
+			<div class="row d-flex align-items-center">
+				<div class="col-sm-12 -col-md-7 col-lg-7">
+					<h3>Welcome to</h3>
+					<h1>FANTASY CRICKET LEAGUE</h1>
+				</div>
+				<div class="col-sm-12 col-md-5 col-lg-5">
+					<img hidden src="new_script/img/page1_mobile.png" class="img-fluid" alt="">
+				</div>
 			</div>
 		</div>
-		<div class="banner_play">
-			<div class="container-fluid">
-				<div class="row d-flex align-items-center">
-					<div class="col-sm-12 -col-md-7 col-lg-7">
-						<h3>Welcome to</h3>
-						<h1>FANTASY CRICKET LEAGUE</h1>
+	</div>
+	</div>
+	<!--banner end-->
+	<div class="page1_content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-7">
+					<h2>Fantasy Cricket League & Win Real on Notout11</h2>
+					<p>Cricket is the most popular sport in India, and we can find many cricket fanatics in every corner
+						of the country. In a country like India, where people have a great interest in cricket, fantasy
+						cricket helps them to utilize their knowledge and win real cash with their cricket knowledge.
+						<br>
+						<br>
+						In <a href="fantasy-cricket.html">fantasy cricket</a> league, you make a team of 11 players from
+						the set of 22-25 players from the upcoming match and join the contests as per your convenience.
+						Many other factors increase your chances of winning like picking the right captain &
+						vice-captain, researching about the pitch conditions to make your team accordingly and to
+						analyse the recent performances of the players. <br>
+						<br>
+						So, start your journey now and join contests with your fantasy teams to <a
+							href="index.html">earn real money on Notout11 app</a>. Notout11 app is one of India’s best
+						cricket fantasy platforms where you play fantasy cricket and win real money. You can download
+						the Notout11 app on your phone and start playing fantasy cricket. It's one of the
+						fastest-growing fantasy sports platforms where you can win real cash with your knowledge about
+						cricket. If you're a rookie in fantasy cricket, then you can go through 'how to play' and
+						'fantasy points system' where you can learn more about leagues like Indian T20 fantasy leagues.
+						<br>
+						<br>
+						To enhance your experience for fantasy sports, join Notout11 app now and become the captain of
+						your team, not just a spectator.
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img src="new_script/img/page1_mobile.png" class="img-fluid  pt-4" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--blog-->
+	<div class="accordion-div">
+		<div class="container-fluid">
+			<div class="h2"> frequently asked questions</div>
+			<div class="accordion" id="accordionExample">
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h2 class="accordion_header d-flex">
+							<span class="pr-3">Q.1</span>
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+								aria-expanded="true" aria-controls="collapseOne">
+								What is Fantasy Cricket League?
+							</button>
+						</h2>
 					</div>
-					<div class="col-sm-12 col-md-5 col-lg-5">
-						<img hidden src="new_script/img/page1_mobile.png" class="img-fluid" alt="">
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="answer d-flex">
+								<b class="pr-4 answer-A">A.1</b>
+								<p>Fantasy cricket is a game of skill where the users can make their playing XI for the
+									upcoming matches, and if your team performs well, you can win real money. As the
+									word 'Fantasy' conveys that it's a part of your imagination and the involvement of
+									'Cricket' means you've to make a cricket team of your imagination. Here, you make a
+									team of 11 players from a total of 22-30 players, and the basis of creating your
+									fantasy team depends upon your understanding about those players.
+									<br>
+									<br>After creating the team, you have to select your captain and vice-captain, who
+									you think can be the outstanding performers of the match and help you get additional
+									points from their performances. Notout11 is the new fantasy cricket app which allows
+									the users to become a part of the biggest sports community.
+									<br>
+									<br>Some significant features of playing a fantasy cricket game are as follows:
+									<br>
+									<br>
+									<b>1. Fantasy cricket is your playground:</b> While watching cricket, we always
+									analyze the team combinations and take crucial decisions during the match. Here's a
+									chance to play cricket like the way you've always wanted to. Create your teams, pick
+									your captain and vice-captain, sit with a tub of popcorn and enjoy the match.
+									<br>
+									<br>
+									<b>2. You may not be a die-hard fan of cricket, but fantasy cricket is
+										inevitable:</b> Even if you have a tight schedule, then also you can build up
+									your team in 10-15 minutes and start doing your work. There may be a chance that at
+									the end of the day, you can get a surprise with huge winnings.
+									<br>
+									<br>
+									<b>3. Multiple chances to win huge amount:</b> "More the chances you have, more the
+									chances of winning you get." We all are aware of this quote, but fantasy cricket
+									proves it.
+									<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h2 class="mb-0 d-flex">
+							<span class="pr-3">Q.2</span>
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+								data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								How to Play Fantasy Cricket Online and Win Real Cash on Notout11?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="answer d-flex">
+								<b class="pr-4 answer-A">A.2</b>
+								<p>In the ever-expanding universe of imagination cricket, Notout11 has brought a big
+									surprise for you in the form of fantasy cricket. We all have a good knowledge of
+									cricket and fantasy cricket leagues but utilizing it for our benefit is what we need
+									to learn.
+									<br>
+									<br>Here's a simple guide on how to play fantasy cricket and win real cash on
+									Notout11 app:
+									<br>
+									<br>
+									<b>1. Download and install our Notout11 app:</b> The first step is to install our
+									fantasy cricket apk, sign up with your email ID & phone number, and take our
+									'starter guide' for better understanding.
+									<br>
+									<br>
+									<b>2. Select the match and create your fantasy team:</b> In this step, your deep
+									knowledge about cricket can be utilized. Select the upcoming match and start
+									building your best fantasy teams to win the contests daily.
+									<br>
+									<br>
+									<b>3. Join as many contests as you want:</b> Join the contests and increase your
+									chances of winning real cash daily.
+									<br>
+									<br>
+									<b>4. Sit back and enjoy cricket:</b> After making your fantasy teams, enjoy the
+									match and get ready to win huge amounts from your fantasy team.
+									<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card" hidden>
+					<div class="card-header" id="headingThree">
+						<h2 class="mb-0 d-flex">
+							<span class="pr-3">Q.3</span>
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+								data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								What is Indian Fantasy Premier League?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+						data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="answer d-flex">
+								<b class="pr-4 answer-A">A.3</b>
+								<p>Indian fantasy premier league is also a virtual cricket game in which you can create
+									your playing XI for an upcoming Indian T20 premier league match. The Indian T20
+									league has always been known as the 'cricket festival' in India because of its high
+									popularity and involvement of teams from every part of India. Other than being a
+									cricket fan, people also wait for the mega event of this T20 league, so that they
+									can showcase their talents in the grand Indian fantasy leagues.
+									<br>
+									The concept is also the same where you'll be given 100 credits to create the
+									strongest playing XI by selecting the Captain and Vice-captain, who you think can be
+									the outstanding performers of the match.
+									<br>
+									<br>Following are the reasons why the Indian T20 fantasy league is more popular:
+									<br>
+									<br>
+									<b>1. Deep knowledge of fantasy teams:</b> Most of the users are always ready to
+									take part in Indian T20 fantasy league because they're more familiar with the teams
+									and players. So, the chances of winning the real cash are higher.
+									<br>
+									<br>
+									<b>2. Every cricket fan in India watches Indian fantasy premier league:</b> As I've
+									said, the Indian T20 league is the cricket festival of India and every Indian tries
+									to witness this mega event. So, it becomes more interesting for them to take part in
+									the fantasy leagues.
+									<br>
+									<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingFour">
+						<h2 class="mb-0 d-flex">
+							<span class="pr-3">Q.3</span>
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+								data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								Why is Notout11 awesome? Is it legal, safe and secure?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+						data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="answer d-flex">
+								<b class="pr-3 answer-A">A.3</b>
+								<p>One question that arises in every cricket fan's mind - why to pick Notout11 fantasy
+									cricket app for earning real money when there are many other fantasy cricket league
+									apps? So, the answer is simple - the process from 'account registration' to 'instant
+									withdrawal of money' is so smooth and trouble-free, which makes our platform
+									awesome. Even the user, who is not very much familiar with the concept of fantasy
+									leagues, can easily download the app, play fantasy cricket and win real cash daily.
+									<br>
+									<br>As compared to other platforms, Notout11 offers a better understanding of
+									fantasy cricket in terms of 'simple guide', and you can also excel your knowledge
+									while playing on our platform. Notout11 is India’s fastest-growing online fantasy
+									platform which also offers benefits like grand rewards, free entries, and many more.
+									<br>
+									<br>Fantasy sports is a game of skill that sets it apart from gambling. Hence,
+									fantasy cricket also comes under a skill-based game, and it is considered as legal.
+									Our company is registered, and we have been in the market for the last 16 months &
+									increasing our market presence among different companies. Also, your personal
+									information will be kept strictly confidential and will not be sold, reused, rented,
+									loaned or otherwise disclosed.
+									<br>
+									<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card" hidden>
+					<div class="card-header" id="headingFive">
+						<h2 class="mb-0 d-flex">
+							<span class="pr-3">Q.5</span>
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+								data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								What is Indian Fantasy Premier League?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+						data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="answer d-flex">
+								<b class="pr-3 answer-A">A.5</b>
+								<p>Fantasy sports games allow users to make the best use of their sports knowledge and
+									earn real cash by taking part in fantasy sports leagues. It's a platform for every
+									sports enthusiast who has good analytical skills and can determine the best fantasy
+									teams for the upcoming matches.
+									<br>
+									<br>Here's a list of reasons why you should play fantasy games:
+									<br>
+									<br>
+									1. You understand sports better than many users and can utilize it. So, you should
+									download the app and play fantasy cricket games to earn real money.
+									<br>
+									<br>
+									2. You can earn real cash with the help of your sports knowledge. Notout11 is a free
+									fantasy cricket app where you have to pay a nominal entry fee, and you can win a
+									huge amount.
+									<br>
+									<br>
+									3. You can become a part of the biggest sports community where you can share your
+									ideas about fantasy sports and influence the crowd.
+									<br> <br>
+									4. Playing in a fantasy sports game will increase your interest in the
+									ongoing/upcoming match.
+									<br><br>
+									5. You usually have ideas about the team combination, and pitch reports, if you
+									think you know more about a sport, then fantasy cricket is the best platform to
+									showcase your skill and ideas.
+									<br>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<!--blog-->
+	<div class="sticky_buttons">
+		<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
+				<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
+			</a>
 		</div>
-		<!--banner end-->
-		<div class="page1_content">
+		<div class="appLink-ic">
+			<a href="#" onclick="gtag_report_conversion('#')">
+				<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
+			</a>
+		</div>
+	</div>
+
+	<section id="footer">
+		<div class="newsletter">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-7">
-						<h2>Fantasy Cricket League & Win Real on Notout11</h2>
-						<p>Cricket is the most popular sport in India, and we can find many cricket fanatics in every corner of the country. In a country like India, where people have a great interest in cricket, fantasy cricket helps them to utilize their knowledge and win real cash with their cricket knowledge. <br>
-							<br>
-							In <a href="fantasy-cricket.html">fantasy cricket</a> league, you make a team of 11 players from the set of 22-25 players from the upcoming match and join the contests as per your convenience. Many other factors increase your chances of winning like picking the right captain & vice-captain, researching about the pitch conditions to make your team accordingly and to analyse the recent performances of the players. <br>
-							<br>
-							So, start your journey now and join contests with your fantasy teams to <a href="index.html">earn real money on Notout11 app</a>. Notout11 app is one of India’s best cricket fantasy platforms where you play fantasy cricket and win real money. You can download the Notout11 app on your phone and start playing fantasy cricket. It's one of the fastest-growing fantasy sports platforms where you can win real cash with your knowledge about cricket. If you're a rookie in fantasy cricket, then you can go through 'how to play' and 'fantasy points system' where you can learn more about leagues like Indian T20 fantasy leagues. <br>
-							<br>
-							To enhance your experience for fantasy sports, join Notout11 app now and become the captain of your team, not just a spectator.
-						</p>
+					<div class="col-md-8 col-lg-9 text-left">
+						<a href="index.html">
+							<img src="new_script/img/logo.png" alt="">
+						</a>
 					</div>
-					<div class="col-md-5">
-						<img src="new_script/img/page1_mobile.png" class="img-fluid  pt-4" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--blog-->
-		<div class="accordion-div">
-			<div class="container-fluid">
-				<div class="h2"> frequently asked questions</div>
-				<div class="accordion" id="accordionExample">
-					<div class="card">
-						<div class="card-header" id="headingOne">
-							<h2 class="accordion_header d-flex">
-								<span class="pr-3">Q.1</span> 
-								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								What is Fantasy Cricket League?
-								</button>
-							</h2>
-						</div>
-						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-							<div class="card-body">
-								<div class="answer d-flex">
-									<b class="pr-4 answer-A">A.1</b>
-									<p>Fantasy cricket is a game of skill where the users can make their playing XI for the upcoming matches, and if your team performs well, you can win real money. As the word 'Fantasy' conveys that it's a part of your imagination and the involvement of 'Cricket' means you've to make a cricket team of your imagination. Here, you make a team of 11 players from a total of 22-30 players, and the basis of creating your fantasy team depends upon your understanding about those players.
-										<br>
-										<br>After creating the team, you have to select your captain and vice-captain, who you think can be the outstanding performers of the match and help you get additional points from their performances. Notout11 is the new fantasy cricket app which allows the users to become a part of the biggest sports community.
-										<br>
-										<br>Some significant features of playing a fantasy cricket game are as follows:
-										<br>
-										<br>
-										<b>1. Fantasy cricket is your playground:</b> While watching cricket, we always analyze the team combinations and take crucial decisions during the match. Here's a chance to play cricket like the way you've always wanted to. Create your teams, pick your captain and vice-captain, sit with a tub of popcorn and enjoy the match.
-										<br>
-										<br>
-										<b>2. You may not be a die-hard fan of cricket, but fantasy cricket is inevitable:</b> Even if you have a tight schedule, then also you can build up your team in 10-15 minutes and start doing your work. There may be a chance that at the end of the day, you can get a surprise with huge winnings.
-										<br>
-										<br>
-										<b>3. Multiple chances to win huge amount:</b> "More the chances you have, more the chances of winning you get." We all are aware of this quote, but fantasy cricket proves it.
-										<br>
-									</p>
-								</div>
+					<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
+						<div>
+							<h5 class="security_games">Security & Game Integrity</h5>
+							<div class="responsible_play">
+								<a href="play-responsible.html">
+									<button>Responsibly Play <i class="far fa-hand-point-right"></i></button>
+									<img src="new_script/images/18adult123.png" alt="">
+								</a>
 							</div>
 						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingTwo">
-							<h2 class="mb-0 d-flex">
-								<span class="pr-3">Q.2</span>
-								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								How to Play Fantasy Cricket Online and Win Real Cash on Notout11?
-								</button>
-							</h2>
-						</div>
-						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-							<div class="card-body">
-								<div class="answer d-flex">
-									<b class="pr-4 answer-A">A.2</b>
-									<p>In the ever-expanding universe of imagination cricket, Notout11 has brought a big surprise for you in the form of fantasy cricket. We all have a good knowledge of cricket and fantasy cricket leagues but utilizing it for our benefit is what we need to learn.
-										<br>
-										<br>Here's a simple guide on how to play fantasy cricket and win real cash on Notout11 app:
-										<br>
-										<br>
-										<b>1. Download and install our Notout11 app:</b> The first step is to install our fantasy cricket apk, sign up with your email ID & phone number, and take our 'starter guide' for better understanding.
-										<br>
-										<br>
-										<b>2. Select the match and create your fantasy team:</b> In this step, your deep knowledge about cricket can be utilized. Select the upcoming match and start building your best fantasy teams to win the contests daily.
-										<br>
-										<br>
-										<b>3. Join as many contests as you want:</b> Join the contests and increase your chances of winning real cash daily.
-										<br>
-										<br>                     
-										<b>4. Sit back and enjoy cricket:</b>  After making your fantasy teams, enjoy the match and get ready to win huge amounts from your fantasy team.
-										<br>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card" hidden>
-						<div class="card-header" id="headingThree">
-							<h2 class="mb-0 d-flex">
-								<span class="pr-3">Q.3</span>
-								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								What is Indian Fantasy Premier League?
-								</button>
-							</h2>
-						</div>
-						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-							<div class="card-body">
-								<div class="answer d-flex">
-									<b class="pr-4 answer-A">A.3</b>
-									<p>Indian fantasy premier league is also a virtual cricket game in which you can create your playing XI for an upcoming Indian T20 premier league match. The Indian T20 league has always been known as the 'cricket festival' in India because of its high popularity and involvement of teams from every part of India. Other than being a cricket fan, people also wait for the mega event of this T20 league, so that they can showcase their talents in the grand Indian fantasy leagues.
-										<br>
-										The concept is also the same where you'll be given 100 credits to create the strongest playing XI by selecting the Captain and Vice-captain, who you think can be the outstanding performers of the match. 
-										<br>
-										<br>Following are the reasons why the Indian T20 fantasy league is more popular:
-										<br>
-										<br>
-										<b>1. Deep knowledge of fantasy teams:</b>  Most of the users are always ready to take part in Indian T20 fantasy league because they're more familiar with the teams and players. So, the chances of winning the real cash are higher.
-										<br>
-										<br>
-										<b>2. Every cricket fan in India watches Indian fantasy premier league:</b> As I've said, the Indian T20 league is the cricket festival of India and every Indian tries to witness this mega event. So, it becomes more interesting for them to take part in the fantasy leagues.
-										<br>
-										<br>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingFour">
-							<h2 class="mb-0 d-flex">
-								<span class="pr-3">Q.3</span>
-								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								Why is Notout11 awesome? Is it legal, safe and secure?
-								</button>
-							</h2>
-						</div>
-						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-							<div class="card-body">
-								<div class="answer d-flex">
-									<b class="pr-3 answer-A">A.3</b>
-									<p>One question that arises in every cricket fan's mind - why to pick Notout11 fantasy cricket app for earning real money when there are many other fantasy cricket league apps? So, the answer is simple - the process from 'account registration' to 'instant withdrawal of money' is so smooth and trouble-free, which makes our platform awesome. Even the user, who is not very much familiar with the concept of fantasy leagues, can easily download the app, play fantasy cricket and win real cash daily.
-										<br>
-										<br>As compared to other platforms, Notout11 offers a better understanding of fantasy cricket in terms of 'simple guide', and you can also excel your knowledge while playing on our platform. Notout11 is India’s fastest-growing online fantasy platform which also offers benefits like grand rewards, free entries, and many more.
-										<br>
-										<br>Fantasy sports is a game of skill that sets it apart from gambling. Hence, fantasy cricket also comes under a skill-based game, and it is considered as legal. Our company is registered, and we have been in the market for the last 16 months & increasing our market presence among different companies. Also, your personal information will be kept strictly confidential and will not be sold, reused, rented, loaned or otherwise disclosed.
-										<br>
-										<br>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card" hidden>
-						<div class="card-header" id="headingFive">
-							<h2 class="mb-0 d-flex">
-								<span class="pr-3">Q.5</span>
-								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								What is Indian Fantasy Premier League?
-								</button>
-							</h2>
-						</div>
-						<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-							<div class="card-body">
-								<div class="answer d-flex">
-									<b class="pr-3 answer-A">A.5</b>
-									<p>Fantasy sports games allow users to make the best use of their sports knowledge and earn real cash by taking part in fantasy sports leagues. It's a platform for every sports enthusiast who has good analytical skills and can determine the best fantasy teams for the upcoming matches.
-										<br>
-										<br>Here's a list of reasons why you should play fantasy games:
-										<br>
-										<br>
-										1.  You understand sports better than many users and can utilize it. So, you should download the app and play fantasy cricket games to earn real money.
-										<br>
-										<br>
-										2. You can earn real cash with the help of your sports knowledge. Notout11 is a free fantasy cricket app where you have to pay a nominal entry fee, and you can win a huge amount.
-										<br>
-										<br>
-										3. You can become a part of the biggest sports community where you can share your ideas about fantasy sports and influence the crowd.
-										<br> <br>
-										4. Playing in a fantasy sports game will increase your interest in the ongoing/upcoming match.
-										<br><br>
-										5. You usually have ideas about the team combination, and pitch reports, if you think you know more about a sport, then fantasy cricket is the best platform to showcase your skill and ideas.
-										<br>
-									</p>
-								</div>
+						<div class="input-group" hidden>
+							<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
+							<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--blog-->
-		<div class="sticky_buttons">
-			<!-- <a href="https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk" onclick="gtag_report_conversion('https://app-update-Notout11.s3.ap-south-1.amazonaws.com/Notout11_V_51.apk')" id="andrd_link"> -->
-			<div class="appLink-ic">
-				<a href="#" onclick="gtag_report_conversion('#')" id="andrd_link">
-					<img src="new_script/img/androidpng1.png" class="img-fluid" alt="">
-				</a>
-			</div>
-			<div class="appLink-ic">
-				<a href="#" onclick="gtag_report_conversion('#')">
-					<img src="new_script/img/applepng1.png" class="img-fluid" alt="">
-				</a>
-			</div>
-		</div>
-		
-<section id="footer">
-	<div class="newsletter">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8 col-lg-9 text-left">
-					<a href="index.html">
-						<img src="new_script/img/logo.png" alt="">
-					</a>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex justify-content-left align-items-center">
-					<div>
-						<h5 class="security_games">Security & Game Integrity</h5>
-						<div class="responsible_play">
-						<a href="play-responsible.html">
-								<button>Responsibly Play  <i class="far fa-hand-point-right"></i></button>
-								<img src="new_script/images/18adult123.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="input-group" hidden>
-						<input type="text" class="form-control news-input" placeholder="Email/Phone Number">
-						<div class="input-group-append"> <span class="input-group-text">Get App Link</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="underline"></div>
-	<!--end newsletter div-->
+		<div class="underline"></div>
+		<!--end newsletter div-->
 
-	<!--start footer div-->
-	<div class="footer">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div>
-						<h3>DISCLAIMER</h3>
-						<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any association or affiliation in any manner with any sports governing leagues or authorities, including (but not limited to) the Board of Control for Cricket in India (BCCI), unless specified otherwise.</p>
+		<!--start footer div-->
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div>
+							<h3>DISCLAIMER</h3>
+							<p class="disclaimer">Notout11 is neither associated or affiliated nor claims any
+								association or affiliation in any manner with any sports governing leagues or
+								authorities, including (but not limited to) the Board of Control for Cricket in India
+								(BCCI), unless specified otherwise.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div footer-center">
-					<div class="">
-						<h3>FIND OUT MORE</h3>
-						<li>
-							<a href="how-to-play.html">How to Play</a>
-						</li>
-						<li>
-							<a href="fantasy-cricket.html">Fantasy Cricket</a>
-						</li>
-						<li>
-							<a href="fantasy-football.html">Fantasy Football</a>
-						</li>
-						<li>
-							<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
-						</li>
-						<li>
-							<a href="play-ludo-online.html">Ludo</a>
-						</li>
-						<!-- <li>
+					<div class="col-md-6 col-lg-3 footer-div footer-center">
+						<div class="">
+							<h3>FIND OUT MORE</h3>
+							<li>
+								<a href="how-to-play.html">How to Play</a>
+							</li>
+							<li>
+								<a href="fantasy-cricket.html">Fantasy Cricket</a>
+							</li>
+							<li>
+								<a href="fantasy-football.html">Fantasy Football</a>
+							</li>
+							<li>
+								<a href="fantasy-kabaddi.html">Fantasy Kabaddi</a>
+							</li>
+							<li>
+								<a href="play-ludo-online.html">Ludo</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-app">Fantasy Cricket app</a>
 						</li> -->
-						<li>
-							<a href="fantasy-points-system.html">Points System</a>
-						</li>
-						<!-- <li>
+							<li>
+								<a href="fantasy-points-system.html">Points System</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/fantasy-cricket-league">Fantasy Cricket League</a>
 						</li> -->
-						<li>
-							<a href="faq.html">FAQs</a>
-						</li>
-						<li>
-							<a href="press-release.html">Press Release</a>
-						</li>
+							<li>
+								<a href="faq.html">FAQs</a>
+							</li>
+							<li>
+								<a href="press-release.html">Press Release</a>
+							</li>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div  footer-center">
-					<div class="">
-						<h3>ABOUT US</h3>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about-us.html">About us</a>
-						</li>
-						<li>
-							<a href="privacy-policy.html">Privacy Policy</a>
-						</li>
-						<li>
-							<a href="terms-conditions.html">Terms and Conditions</a>
-						</li>
-						<!-- <li>
+					<div class="col-md-6 col-lg-3 footer-div  footer-center">
+						<div class="">
+							<h3>ABOUT US</h3>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about-us.html">About us</a>
+							</li>
+							<li>
+    <a href="privacy-policy.html">Privacy Policy</a>
+</li>
+<li>
+    <a href="pricing-policy.html">Pricing Policy</a>
+</li>
+							<li>
+								<a href="refund-cancellation-policy.html">Refund & Cancellation Policy</a>
+							</li>
+							<li>
+								<a href="terms-conditions.html">Terms and Conditions</a>
+							</li>
+							<!-- <li>
 							<a href="https://Notout11.com/league">Indian T20 League</a>
 						</li> -->
-						<li>
-							<a href="offers.html">Offers</a>
-						</li>
-						<li>
-							<a href="blog-news.html">Blogs</a>
-						</li>
-						<li>
-							<a href="career-with-us.html">Career</a>
-						</li>
-						
+							<li>
+								<a href="offers.html">Offers</a>
+							</li>
+							<li>
+								<a href="blog-news.html">Blogs</a>
+							</li>
+							<li>
+								<a href="career-with-us.html">Career</a>
+							</li>
+
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 footer-div">
-					<div class="support d-flex flex-column">
-						<h3 id="support_id">SUPPORT</h3>
-						<p>Contact Us</p>
-						<p>CORPORATE OFFICE</p>
-						<p>GODLINE GAMING PVT LTD</p>
-						<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
-						<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p></p>
-						
-						<ul>
-							<li class="pl-1">
-								<a href="https://www.facebook.com/Notout11official" target="blank">
-									<img src="new_script/img/facebook.png" alt="facebook">
-								</a>
-							</li>
-							<li>
-								<a href="https://twitter.com/Notout11official" target="blank">
-									<img src="new_script/img/twitter.png" alt="twitter">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.youtube.com/Notout11Official" target="blank">
-									<img src="new_script/img/youtube.png" alt="youtube">
-								</a>
-							</li>
-							<li>
-								<a href="https://t.me/Notout11_OFFICIAL" target="blank">
-									<img src="new_script/img/telegram.png" alt="telegram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/company/Notout11official" target="blank">
-									<img src="new_script/img/linkedin.png" alt="linkedin">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/Notout11official" target="blank">
-									<img src="new_script/img/instagram.png" alt="instagram">
-								</a>
-							</li>
-							<li>
-								<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
-									<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
-								</a>
-							</li>
-						</ul>
+					<div class="col-md-6 col-lg-3 footer-div">
+						<div class="support d-flex flex-column">
+							<h3 id="support_id">SUPPORT</h3>
+							<p>Contact Us</p>
+							<p>Address:<span> plot no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024plot
+									no.3 , new Bidipeth, Near Church ,Nagpur ,Maharashtra ,440024</span></p>
+							<p>GODLINE GAMING PVT LTD</p>
+							<p>Mail Us: <a href="mailto:godlinegaming85@gmail.com">godlinegaming85@gmail.com</a></p>
+							<p>Customer Support Number :- <a href="tel:+91 9730733397">9730733397</a></p>
+							</p>
+
+							<ul>
+								<li class="pl-1">
+									<a href="https://www.facebook.com/Notout11official" target="blank">
+										<img src="new_script/img/facebook.png" alt="facebook">
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Notout11official" target="blank">
+										<img src="new_script/img/twitter.png" alt="twitter">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/Notout11Official" target="blank">
+										<img src="new_script/img/youtube.png" alt="youtube">
+									</a>
+								</li>
+								<li>
+									<a href="https://t.me/Notout11_OFFICIAL" target="blank">
+										<img src="new_script/img/telegram.png" alt="telegram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/Notout11official" target="blank">
+										<img src="new_script/img/linkedin.png" alt="linkedin">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/Notout11official" target="blank">
+										<img src="new_script/img/instagram.png" alt="instagram">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.kooapp.com/profile/Notout11official" target="blank">
+										<img src="new_script/img/koo1.png" style="height: 31px;" alt="instagram">
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="underline"></div>
-	<!-- end footer div-->
+		<div class="underline"></div>
+		<!-- end footer div-->
 
 
-	<!--start copyright-->
-	<div class="copyright">
-		<div class="container-fluid">
-			<h3 class="py-3">Payment Partners</h3>
-			<div class="row">
-				<div class="col-md-8 payment-methods">
-					<ul class="d-flex pb-3">
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<!-- <li>
+		<!--start copyright-->
+		<div class="copyright">
+			<div class="container-fluid">
+				<h3 class="py-3">Payment Partners</h3>
+				<div class="row">
+					<div class="col-md-8 payment-methods">
+						<ul class="d-flex pb-3">
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/image&#32;50.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;3.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<!-- <li>
 							<a href="javascript:void(0)">
 								<img src="https://Notout11.com/new_script/img/Frame 4.png" class="img-fluid" alt="">
 							</a>
 						</li> -->
-						<li style="list-style: none;">
-							<a href="javascript:void(0)">
-								<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
-							</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)">
-								<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-4 text-right">
-					<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+							<li style="list-style: none;">
+								<a href="javascript:void(0)">
+									<img src="new_script/img/Frame&#32;5.png" class="img-fluid" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<img src="new_script/img/phn-pay-icon.png" class="img-fluid" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-right">
+						<p>&copy; 2022 NOTOUT 11 All rights reserved.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<!--end copyright-->
-</section>
-<section>
-	<p class="text-center disc_adult">
-		This game involves an element of financial risk and may be addictive. Please play responsibly at your own risk.
-		<br />
-		This game is applicable for people 18+ only.
-	</p>
-</section>		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
-		
-		<!-- Twitter universal website tag code -->
-		<script>
-			!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-			},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-			a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-			// Insert Twitter Pixel ID and Standard Event data below
-			twq('init','o5jjs');
-			twq('track','PageView');
-		</script>
-		<!-- End Twitter universal website tag code -->
-	</body>
+
+		<!--end copyright-->
+	</section>
+	<section>
+		<p class="text-center disc_adult">
+			This game involves an element of financial risk and may be addictive. Please play responsibly at your own
+			risk.
+			<br />
+			This game is applicable for people 18+ only.
+		</p>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<!-- Twitter universal website tag code -->
+	<script>
+		!function (e, t, n, s, u, a) {
+			e.twq || (s = e.twq = function () {
+				s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+			}, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+				a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+		}(window, document, 'script');
+		// Insert Twitter Pixel ID and Standard Event data below
+		twq('init', 'o5jjs');
+		twq('track', 'PageView');
+	</script>
+	<!-- End Twitter universal website tag code -->
+</body>
+
 </html>
