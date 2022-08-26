@@ -4,7 +4,7 @@ body {
     }
 
     .header {
-      background: linear-gradient(45deg, #0676DA, #3DA8F6);
+      background: linear-gradient(137.38deg, #c7202623.96%, #c72026 69.76%);
       padding: 19px;
       box-shadow: 0 4px 6px #ccc;
       color: #fff;
@@ -103,7 +103,7 @@ body {
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
       color: #fff !important;
-      background: linear-gradient(45deg, #0676DA, #3DA8F6) !important;
+      background: linear-gradient(137.38deg, #c7202623.96%, #c72026 69.76%) !important;
     }
     p {
     margin-top: 0;

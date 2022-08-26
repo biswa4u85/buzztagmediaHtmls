@@ -426,6 +426,7 @@ p {
 .three-row img {
   width: 65px;
   height: 65px;
+  border-radius: 18px;
 }
 
 .inner-feature-bothside .three-row {
@@ -1804,7 +1805,7 @@ button.btn.btn-link.collapse {
 
 .content-only a,
 .answer.d-flex p a {
-  color: #007bff;
+  color: #c72026;
 }
 
 /* My Style Start From Here 26 August */
